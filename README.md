@@ -14,6 +14,11 @@ danipower1000: Main programer. <br>
 mrlazyrit: Map Maker and Creative Director.<br>
 tocksickg: Main Spriter.<br>
 
+
+
+WE DO NOT CLAIM OWNERSHIP OF ANY OF THE COPYRIGHTED MATERIAL USED IN THIS PROJECT.
+UNDERWATER INSURGENCY IS A FULLY NON-PROFIT PASSION PROJECT CREATED WITH THE GOAL OF ENTERNAINING.
+
 <!-- # Interested? Join our discord server!
 [REMEMBER TO PUT A LINK HERE LATER!]
 
