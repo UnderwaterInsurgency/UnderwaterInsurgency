@@ -9,10 +9,10 @@ Or the Raw, Overwhelming power of the Warband.
 
 - Current Goal: Coalition Rework. Focused on adding the Coalition Recruit class, with his modular weapon of multiple firing modes, along with the Breacher, a shotgun bearing frontliner with Modular Armor with independent HP!
 
-- Current Dev Team members:
-danipower1000: Main programer.
-mrlazyrit: Map Maker and Creative Director.
-tocksickg: Main Spriter.
+- Current Dev Team members: <br>
+danipower1000: Main programer. <br>
+mrlazyrit: Map Maker and Creative Director.<br>
+tocksickg: Main Spriter.<br>
 
 <!-- # Interested? Join our discord server!
 [REMEMBER TO PUT A LINK HERE LATER!]
