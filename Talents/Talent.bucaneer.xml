@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="bucaneer1">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="7,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.bucaneer1">
+      <Replace tag="[HP]" value="20%" color="gui.orange" />
+      <Replace tag="[explode]" value="explode" color="gui.red" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="0.2" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionAboveVitality invert="true" vitalitypercentage="0" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <Affliction identifier="oxygenlow" strength="200" />
+              <Affliction identifier="chemwithdrawal" strength="200" />
+            </StatusEffect>
+            <StatusEffect type="OnAbility" target="This">
+              <SpawnItem identifiers="acidmistemitterB" spawnposition="This" />
+              <Explosion range="300.0" ballastfloradamage="80" structuredamage="10" levelwalldamage="10" itemdamage="10" force="5.0" severlimbsprobability="0.4" showEffects="false" decal="blood" shockwave="true">
+                <Affliction identifier="explosiondamage" strength="20" />
+                <Affliction identifier="stun" strength="2" />
+              </Explosion>
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="10">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <Affliction identifier="boomersyndrome" strength="1" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+  <Talent identifier="bucaneer2">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="2,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.bucaneer2">
+      <Replace tag="[cupcake]" value="Princess Cupcake" color="1,0.5,0.7" />
+      <Replace tag="[giantmudraptor]" value="Giant Mudraptor Pitbull" color="gui.red" />
+    </Description>
+    <AbilityGroupInterval interval="1" maxtriggercount="3">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="adoptioncontract" amount="3.5" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+  <Talent identifier="bucaneertagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.bucaneertagtalent">
+      <Replace tag="[downside]" value="Due to uncontrolable twitching, you will miss all shots with firearms." color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.15" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval interval="3.5">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="bucaneerhigh" amount="3.5" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="-1.0" />
+        <CharacterAbilityModifyStat stattype="RangedSpreadReduction" value="-3.0" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="thrown" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="1.0" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="raptoressence" />
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <AddedRecipe itemidentifier="ultrazine" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="uex" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+    <AddedRecipe itemidentifier="thedevilsthirst" />
+  </Talent>
+</Talents>

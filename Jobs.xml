@@ -1,0 +1,2212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Jobs>
+  <Job identifier="admin" allowalways="true" minnumber="0" maxnumber="0" minkarma="0" vitalitymodifier="99999999999" pricemultiplier="0.8" idlebehavior="Active">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="640,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="641,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="weapons" level="20,30" />
+      <Skill identifier="mechanical" level="20,30" />
+      <Skill identifier="electrical" level="20,30" />
+      <Skill identifier="medical" level="20,30" />
+      <Skill identifier="helm" level="17.5,20" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="commonerclothes4" equip="true" outfit="true" />
+      <Item identifier="clowndivingmask" equip="true" outfit="true">
+        <Item identifier="oxygenitetank" />
+      </Item>
+      <Item identifier="wrench" />
+      <Item identifier="screwdriver" />
+      <Item identifier="squasher" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Assistant/assistant_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Assistant/assistant_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="pumpwater" option="pumpout" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="repairsystems" prioritymodifier="0.5" />
+      <Order identifier="fixleaks" prioritymodifier="0.5" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.4" />
+    </AutonomousObjectives>
+  </Job>
+  <Job identifier="clown" allowalways="true" minnumber="0" maxnumber="0" minkarma="0" vitalitymodifier="100" pricemultiplier="0.8" idlebehavior="Active">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="640,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="641,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="weapons" level="20,30" />
+      <Skill identifier="mechanical" level="20,30" />
+      <Skill identifier="electrical" level="20,30" />
+      <Skill identifier="medical" level="20,30" />
+      <Skill identifier="helm" level="17.5,20" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="clowncostume" equip="true" outfit="true" />
+      <Item identifier="oxygenitetank" />
+      <Item identifier="revolver" equip="false" showpreview="true">
+        <Item identifier="revolverround" equip="false" showpreview="true" />
+        <Item identifier="revolverround" equip="false" />
+        <Item identifier="revolverround" equip="false" />
+        <Item identifier="revolverround" equip="false" />
+        <Item identifier="revolverround" equip="false" />
+        <Item identifier="revolverround" equip="false" />
+      </Item>
+      <Item identifier="revolverround" equip="false" />
+      <Item identifier="revolverround" equip="false" />
+      <Item identifier="revolverround" equip="false" />
+      <Item identifier="revolverround" equip="false" />
+      <Item identifier="revolverround" equip="false" />
+      <Item identifier="revolverround" equip="false" />
+      <Item identifier="divingknife" showpreview="true" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Assistant/assistant_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Assistant/assistant_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="pumpwater" option="pumpout" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="repairsystems" prioritymodifier="0.5" />
+      <Order identifier="fixleaks" prioritymodifier="0.5" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.4" />
+    </AutonomousObjectives>
+  </Job>
+  <Job identifier="coalitionteamcaptain" minnumber="1" maxnumber="1" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="80,100" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagcaptain1" equip="true" showpreview="true" />
+      <Item identifier="thermalcap" equip="true" showpreview="true" />
+      <Item identifier="securityuniform3" equip="true" outfit="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="krissvector" equip="false" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="9mmmag" showpreview="true" />
+      </Item>
+      <Item identifier="9mmmag" showpreview="true" />
+      <Item identifier="9mmmag" />
+      <Item identifier="9mmmag" />
+      <Item identifier="9mmmag" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="dropflaremixed" />
+      <Item identifier="autoinjectorheadset" equip="true" showpreview="true">
+        <Item identifier="combatstimulantsyringe" showpreview="true" />
+      </Item>
+      <Item identifier="handheldstatusmonitor" equip="false" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagcaptain1" equip="true" showpreview="true" />
+      <Item identifier="thermalcap" equip="true" showpreview="true" />
+      <Item identifier="securityuniform3" equip="true" outfit="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="krissvector" equip="false" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="9mmmag" showpreview="true" />
+      </Item>
+      <Item identifier="9mmmag" showpreview="true" />
+      <Item identifier="9mmmag" />
+      <Item identifier="9mmmag" />
+      <Item identifier="9mmmag" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="dropflaremixed" />
+      <Item identifier="autoinjectorheadset" equip="true" showpreview="true">
+        <Item identifier="combatstimulantsyringe" showpreview="true" />
+      </Item>
+      <Item identifier="handheldstatusmonitor" equip="false" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <!--ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagcaptaing" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform3" equip="true" outfit="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="milkor" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+		<Item identifier="40mmflechette" />
+		<Item identifier="40mmflechette" />
+		<Item identifier="40mmflechette" />
+		<Item identifier="40mmflechette" />
+		<Item identifier="40mmflechette" />
+		<Item identifier="40mmflechette" />
+	  </Item>
+      <Item identifier="40mmflechette" />
+      <Item identifier="40mmflechette" />
+      <Item identifier="40mmgrenade" />
+      <Item identifier="40mmgrenade" />
+      <Item identifier="40mmgrenade" />
+      <Item identifier="40mmteargrenade" />
+      <Item identifier="40mmteargrenade" />
+	  <Item identifier="40mmteargrenade" />
+	  <Item identifier="40mmteargrenade" />
+	  <Item identifier="40mmconcussiongrenade" />
+	  <Item identifier="40mmconcussiongrenade" />
+	  <Item identifier="40mmconcussiongrenade" />
+	  <Item identifier="40mmconcussiongrenade" />
+	  <Item identifier="40mmsonicboom" />
+      <Item identifier="40mmsonicboom" />
+	  <Item identifier="40mmsonicboom" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="coalitioncommendation" />
+      <Item identifier="autoinjectorheadset" equip="true" showpreview="true">
+        <Item identifier="combatstimulantsyringe" showpreview="true" />
+      </Item>
+      <Item identifier="handheldstatusmonitor" equip="false" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet-->
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="coalitionsniper" minnumber="0" maxnumber="1" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="80,100" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagsniper" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="urban-camo" equip="true" outfit="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="xm3" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="sniperbulletap" showpreview="true" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+      </Item>
+      <Item identifier="sniperbulletex" showpreview="true" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagsniper" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="urban-camo" equip="true" outfit="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="xm3" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="sniperbulletap" showpreview="true" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+        <Item identifier="sniperbulletap" />
+      </Item>
+      <Item identifier="sniperbulletex" showpreview="true" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="sniperbulletex" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="coalitionsaboteur" minnumber="0" maxnumber="2" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="50" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="100,100" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="40,60" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagsaboteur" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform2" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="m-79" equip="true" showpreview="true">
+        <Item identifier="mk14" equip="false">
+          <Item identifier="mk14magazine" />
+        </Item>
+        <Item identifier="mk14magazine" />
+        <Item identifier="mk14magazine" />
+        <Item identifier="mk14magazine" />
+        <Item identifier="mk14magazine" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="40mmconcussiongrenade" equip="false" showpreview="true" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmteargrenade" equip="false" outfit="true" showpreview="true" />
+      <Item identifier="40mmteargrenade" equip="false" />
+      <Item identifier="40mmteargrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" showpreview="true" />
+      <Item identifier="remotecontrolterminal" />
+      <Item identifier="mountablemortar" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="toolbelt" equip="true">
+        <Item identifier="wrench" />
+        <Item identifier="wire" />
+        <Item identifier="wire" />
+        <Item identifier="40mmgrenade" showpreview="true" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+      </Item>
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagsaboteur" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform2" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="m-79" equip="true" showpreview="true">
+        <Item identifier="mk14" equip="false">
+          <Item identifier="mk14magazine" />
+        </Item>
+        <Item identifier="mk14magazine" />
+        <Item identifier="mk14magazine" />
+        <Item identifier="mk14magazine" />
+        <Item identifier="mk14magazine" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="40mmconcussiongrenade" equip="false" showpreview="true" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmteargrenade" equip="false" outfit="true" showpreview="true" />
+      <Item identifier="40mmteargrenade" equip="false" />
+      <Item identifier="40mmteargrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" showpreview="true" />
+      <Item identifier="remotecontrolterminal" />
+      <Item identifier="mountablemortar" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="toolbelt" equip="true">
+        <Item identifier="wrench" />
+        <Item identifier="wire" />
+        <Item identifier="wire" />
+        <Item identifier="40mmgrenade" showpreview="true" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+        <Item identifier="40mmgrenade" />
+      </Item>
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="coalitionmedic" minnumber="0" maxnumber="3" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="45,55" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="100,100" primary="true" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagmedic" equip="true" showpreview="true" />
+      <Item identifier="hudhelmet" equip="true" showpreview="true" />
+      <Item identifier="doctorsuniform2" equip="true" outfit="true">
+        <Item identifier="hypercoagulant" equip="false" showpreview="true" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" showpreview="true" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+      </Item>
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="ump9" equip="false">
+        <Item identifier="ump9magazine" equip="false" showpreview="true" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="ump9magazine" equip="false" showpreview="true" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazinenrb" equip="false" showpreview="true" />
+      <Item identifier="ump9magazinenrb" equip="false" />
+      <Item identifier="ump9magazinequnk" equip="false" showpreview="true" />
+      <Item identifier="ump9magazinequnk" equip="false" />
+      <Item identifier="ump9magazinepiezo" equip="false" showpreview="true" />
+      <Item identifier="advancedsyringegun" equip="false">
+        <Item identifier="antidama2" equip="false" showpreview="true" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+      </Item>
+      <Item identifier="lifedartgun" equip="false" showpreview="true">
+        <Item identifier="lifedart" equip="false" showpreview="true" />
+      </Item>
+      <Item identifier="amoebagrenade" equip="false" showpreview="true" />
+      <Item identifier="amoebagrenade" equip="false" showpreview="true" />
+      <!--Item identifier="toolbelt" equip="false" showpreview="true">
+        <Item identifier="antibleeding1" equip="false" showpreview="true" />
+        <Item identifier="antibleeding1" equip="false" showpreview="true" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antidama1" equip="false" showpreview="true" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+      </Item-->
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagmedic" equip="true" showpreview="true" />
+      <Item identifier="hudhelmet" equip="true" showpreview="true" />
+      <Item identifier="doctorsuniform2" equip="true" outfit="true">
+        <Item identifier="hypercoagulant" equip="false" showpreview="true" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="hypercoagulant" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" showpreview="true" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+        <Item identifier="antibloodloss2" equip="false" />
+      </Item>
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="ump9" equip="false">
+        <Item identifier="ump9magazine" equip="false" showpreview="true" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="ump9magazine" equip="false" showpreview="true" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazine" equip="false" />
+      <Item identifier="ump9magazinenrb" equip="false" showpreview="true" />
+      <Item identifier="ump9magazinenrb" equip="false" />
+      <Item identifier="ump9magazinequnk" equip="false" showpreview="true" />
+      <Item identifier="ump9magazinequnk" equip="false" />
+      <Item identifier="ump9magazinepiezo" equip="false" showpreview="true" />
+      <Item identifier="ump9magazinepiezo" equip="false" />
+      <Item identifier="advancedsyringegun" equip="false">
+        <Item identifier="antidama2" equip="false" showpreview="true" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="antidama2" equip="false" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+        <Item identifier="gmuinjection" equip="false" showpreview="true" />
+      </Item>
+      <Item identifier="lifedartgun" equip="false" showpreview="true">
+        <Item identifier="lifedart" equip="false" showpreview="true" />
+      </Item>
+      <Item identifier="amoebagrenade" equip="false" showpreview="true" />
+      <Item identifier="amoebagrenade" equip="false" showpreview="true" />
+      <!--Item identifier="toolbelt" equip="false" showpreview="true">
+        <Item identifier="antibleeding1" equip="false" showpreview="true" />
+        <Item identifier="antibleeding1" equip="false" showpreview="true" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antibleeding1" equip="false" />
+        <Item identifier="antidama1" equip="false" showpreview="true" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+        <Item identifier="antidama1" equip="false" />
+      </Item-->
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="coalitioninfiltrator" minnumber="0" maxnumber="1" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="80,100" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtaginfiltrator" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="urban-camo" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="sr3m" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="sr3mmagazine" showpreview="true" />
+      </Item>
+      <Item identifier="sr3mmagazine" showpreview="true" />
+      <Item identifier="sr3mmagazine" />
+      <Item identifier="IED" showpreview="true" outfit="true" />
+      <Item identifier="IED" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtaginfiltrator" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="urban-camo" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="sr3m" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="sr3mmagazine" showpreview="true" />
+      </Item>
+      <Item identifier="sr3mmagazine" showpreview="true" />
+      <Item identifier="sr3mmagazine" />
+      <Item identifier="IED" showpreview="true" outfit="true" />
+      <Item identifier="IED" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="coalitionrifleman" minnumber="0" maxnumber="30" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="50" pricemultiplier="1.3" idlebehavior="StayInHull" AllowAlways="true">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="60,80" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <!--ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagrifleman" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform2" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="AA-12" equip="true" showpreview="true">
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="shotgunshell" equip="false" showpreview="true" outfit="true" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" showpreview="true" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet-->
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagrifleman" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform2" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="smg" equip="true" showpreview="true" outfit="true">
+        <Item identifier="smgmagazinedepletedfuel" equip="false" showpreview="true" />
+      </Item>
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagrifleman" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform2" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="smg" equip="true" showpreview="true" outfit="true">
+        <Item identifier="smgmagazinedepletedfuel" equip="false" showpreview="true" />
+      </Item>
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="stungrenade" equip="false" showpreview="true" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="coalitiontest" minnumber="0" maxnumber="0" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="60,80" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="npchandcuffs" equip="true" showpreview="false" />
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="dogtagrifleman" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform2" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="AA-12" equip="false" showpreview="true">
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="shotgunshell" equip="false" showpreview="true" outfit="true" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" showpreview="true" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="apshotgunshell" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="npchandcuffs" equip="true" showpreview="false" />
+      <Item identifier="dogtagrifleman" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="securityuniform2" equip="true" />
+      <Item identifier="bodyarmor" equip="true" showpreview="true" />
+      <Item identifier="smg" equip="false" showpreview="true">
+        <Item identifier="smgmagazinedepletedfuel" equip="false" showpreview="true" />
+      </Item>
+      <Item identifier="smgmagazinedepletedfuel" equip="false" outfit="true" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="smgmagazinedepletedfuel" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <!--Job identifier="coalitionbreacher" minnumber="0" maxnumber="1" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="100" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="60,80" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="breacherplateHeadGear" equip="true" showpreview="true" />
+      <Item identifier="breacherplateTorso" equip="true" showpreview="true" outfit="true" />
+      <Item identifier="breacherplateWaist" equip="true" showpreview="true" />
+      <Item identifier="breacherplateRightArm" equip="true" showpreview="true" />
+      <Item identifier="breacherplateLeftArm" equip="true" showpreview="true" />
+      <Item identifier="breacherplateLeftLeg" equip="true" showpreview="true" />
+      <Item identifier="breacherplateRightLeg" equip="true" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="breacherplateHeadGear" equip="true" showpreview="true" />
+      <Item identifier="breacherplateTorso" equip="true" showpreview="true" outfit="true" />
+      <Item identifier="breacherplateWaist" equip="true" showpreview="true" />
+      <Item identifier="breacherplateRightArm" equip="true" showpreview="true" />
+      <Item identifier="breacherplateLeftArm" equip="true" showpreview="true" />
+      <Item identifier="breacherplateLeftLeg" equip="true" showpreview="true" />
+      <Item identifier="breacherplateRightLeg" equip="true" showpreview="true" />
+      <Item identifier="AA-12recruit" equip="true" showpreview="true" >
+        <Item identifier="recmagazine" equip="false" showpreview="true" />
+	  </Item>
+      <Item identifier="recmagazine" equip="false" />
+      <Item identifier="recmagazine" equip="false" />
+      <Item identifier="recmagazine" equip="false" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job-->
+  <Job identifier="warboss" minnumber="1" maxnumber="1" minkarma="45" uicolor="0.57,0.48,0.43" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="80,100" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="dogtagwarboss" equip="true" showpreview="true" />
+      <Item identifier="piratehelmet" equip="true" />
+      <Item identifier="pirateclotheshard" equip="true" />
+      <Item identifier="exosuit" equip="true" showpreview="true" outfit="true">
+        <Item identifier="batterycell" />
+        <Item identifier="fuelrod" />
+        <Item identifier="oxygenitetank" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+      </Item>
+      <Item identifier="assaultrifle" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="assaultriflemagazine" showpreview="true" />
+      </Item>
+      <Item identifier="autoinjectorheadset" equip="true" showpreview="true">
+        <Item identifier="combatstimulantsyringe" />
+      </Item>
+      <Item identifier="assaultriflemagazine" equip="false" />
+      <Item identifier="assaultriflemagazine" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="bluemedal" />
+      <Item identifier="bluemedal" />
+      <Item identifier="bluemedal" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="dogtagwarboss" equip="true" showpreview="true" />
+      <Item identifier="piratehelmet" equip="true" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="pirateclotheshard" equip="true" />
+      <Item identifier="exosuit" equip="true" showpreview="true" outfit="true">
+        <Item identifier="batterycell" />
+        <Item identifier="fuelrod" />
+        <Item identifier="oxygenitetank" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="assaultriflemagazine" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+        <Item identifier="batterycell" />
+      </Item>
+      <Item identifier="assaultrifle" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+        <Item identifier="assaultriflemagazine" showpreview="true" />
+      </Item>
+      <Item identifier="autoinjectorheadset" equip="true" showpreview="true">
+        <Item identifier="combatstimulantsyringe" />
+      </Item>
+      <Item identifier="assaultriflemagazine" equip="false" />
+      <Item identifier="assaultriflemagazine" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="antibleeding2" equip="false" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="bluemedal" />
+      <Item identifier="bluemedal" />
+      <Item identifier="bluemedal" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="pirategrenadier" minnumber="0" maxnumber="1" minkarma="45" uicolor="0.57,0.48,0.43" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="60,65" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="65,70" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagswashbuckler" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="pirateclothes" equip="true" />
+      <Item identifier="piratebodyarmor" equip="true" showpreview="true" />
+      <Item identifier="milkor" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="40mmconcussiongrenade" equip="false" showpreview="true" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmchemgrenade" equip="false" showpreview="true" />
+      <Item identifier="40mmchemgrenade" equip="false" />
+      <Item identifier="40mmchemgrenade" equip="false" />
+      <Item identifier="40mmchemgrenade" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" showpreview="true" outfit="true" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" showpreview="true" />
+      <Item identifier="dlock17" equip="false" showpreview="true">
+        <Item identifier="dlockmag" />
+      </Item>
+      <Item identifier="dlockmag" equip="false" showpreview="true" />
+      <Item identifier="dlockmag" equip="false" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagswashbuckler" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="pirateclothes" equip="true" />
+      <Item identifier="piratebodyarmor" equip="true" showpreview="true" />
+      <Item identifier="milkor" equip="true" showpreview="true">
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="40mmconcussiongrenade" equip="false" showpreview="true" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmconcussiongrenade" equip="false" />
+      <Item identifier="40mmchemgrenade" equip="false" showpreview="true" />
+      <Item identifier="40mmchemgrenade" equip="false" />
+      <Item identifier="40mmchemgrenade" equip="false" />
+      <Item identifier="40mmchemgrenade" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" showpreview="true" outfit="true" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="40mmsonicboom" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" />
+      <Item identifier="fraggrenade" equip="false" showpreview="true" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" />
+      <Item identifier="stungrenade" equip="false" showpreview="true" />
+      <Item identifier="dlock17" equip="false" showpreview="true">
+        <Item identifier="dlockmag" />
+      </Item>
+      <Item identifier="dlockmag" equip="false" showpreview="true" />
+      <Item identifier="dlockmag" equip="false" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="piraterifleman" minnumber="0" maxnumber="30" minkarma="45" uicolor="0.57,0.48,0.43" vitalitymodifier="50" pricemultiplier="1.3" idlebehavior="StayInHull" AllowAlways="true">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="60,80" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="dogtagprivateer" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="banditclothes1" equip="true" />
+      <Item identifier="piratebodyarmor" equip="true" showpreview="true" />
+      <Item identifier="machinepistol" equip="false" showpreview="true">
+        <Item identifier="smgmagazine" equip="false" showpreview="true" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="machinepistol" equip="false" showpreview="true">
+        <Item identifier="smgmagazine" equip="false" showpreview="true" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="smgmagazine" equip="false" outfit="true" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="smgmagazine" equip="false" />
+      <Item identifier="chemgrenade" equip="false" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="dogtagprivateer" equip="true" showpreview="true" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="banditclothes1" equip="true" />
+      <Item identifier="piratebodyarmor" equip="true" showpreview="true" />
+      <Item identifier="tripleshotgun" equip="true" showpreview="true">
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="shotgunshell" equip="false" />
+        <Item identifier="flashlight">
+          <Item identifier="batterycell" />
+        </Item>
+      </Item>
+      <Item identifier="shotgunshell" equip="false" showpreview="true" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" showpreview="true" outfit="true" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="shotgunshell2" equip="false" />
+      <Item identifier="chemgrenade" equip="false" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="piratemelee" minnumber="0" maxnumber="5" minkarma="45" uicolor="0.57,0.48,0.43" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="50,60" />
+      <Skill identifier="weapons" level="10,20" primary="true" />
+      <Skill identifier="mechanical" level="50,60" />
+      <Skill identifier="electrical" level="50,60" />
+      <Skill identifier="medical" level="85,100" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="bucaneerhelmet" equip="true" showpreview="true" />
+      <Item identifier="bucaneerclothes" equip="true" showpreview="true" />
+      <Item identifier="piratebodyarmor" equip="true" showpreview="true" />
+      <Item identifier="bucaneersblade" equip="false" showpreview="true" />
+      <Item identifier="bucaneersblade" equip="false" showpreview="true" />
+      <Item identifier="meth" equip="false" outfit="true" />
+      <Item identifier="meth" equip="false" />
+      <Item identifier="steroids" equip="false" showpreview="true" />
+      <Item identifier="steroids" equip="false" />
+      <Item identifier="antibleeding1" equip="false" showpreview="true" />
+      <Item identifier="antibleeding1" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" showpreview="true" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antidama2" equip="false" showpreview="true" />
+      <Item identifier="antidama2" equip="false" />
+      <Item identifier="antirad" equip="false" showpreview="true" />
+      <Item identifier="antirad" equip="false" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="throwingknife" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="dogtagbucaneer" equip="true" showpreview="true" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="bucaneerhelmet" equip="true" showpreview="true" />
+      <Item identifier="bucaneerclothes" equip="true" showpreview="true" />
+      <Item identifier="piratebodyarmor" equip="true" showpreview="true" />
+      <Item identifier="bucaneeraxe" equip="true" showpreview="true" />
+      <Item identifier="meth" equip="false" outfit="true" />
+      <Item identifier="meth" equip="false" />
+      <Item identifier="steroids" equip="false" showpreview="true" />
+      <Item identifier="steroids" equip="false" />
+      <Item identifier="antibleeding1" equip="false" showpreview="true" />
+      <Item identifier="antibleeding1" equip="false" />
+      <Item identifier="antibloodloss1" equip="false" showpreview="true" />
+      <Item identifier="antibloodloss1" equip="false" />
+      <Item identifier="antidama2" equip="false" showpreview="true" />
+      <Item identifier="antidama2" equip="false" />
+      <Item identifier="antirad" equip="false" showpreview="true" />
+      <Item identifier="antirad" equip="false" />
+      <Item identifier="throwingaxe" showpreview="true" />
+      <Item identifier="flashlight">
+        <Item identifier="batterycell" />
+      </Item>
+      <Item identifier="plasmacutter" equip="false">
+        <Item identifier="oxygentank" />
+      </Item>
+      <Item identifier="dogtagbucaneer" equip="true" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <Job identifier="pirateshieldbearer" minnumber="0" maxnumber="1" minkarma="45" uicolor="0.57,0.48,0.43" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+    <Jobicon>
+      <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <JobiconSmall>
+      <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+    </JobiconSmall>
+    <Skills>
+      <Skill identifier="helm" level="40,50" />
+      <Skill identifier="weapons" level="60,80" primary="true" />
+      <Skill identifier="mechanical" level="15,25" />
+      <Skill identifier="electrical" level="15,25" />
+      <Skill identifier="medical" level="30,45" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagbulwarksman1" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="pirateclotheshard" equip="true" />
+      <Item identifier="mudraptorshell" equip="true" showpreview="true" />
+      <Item identifier="pirateshellshield" equip="false" showpreview="true" outfit="true" />
+      <Item identifier="flashlight">
+        <Item identifier="batterycell" />
+      </Item>
+      <Item identifier="ahablance" equip="true" showpreview="true" />
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false" />
+      <Item identifier="dogtagbulwarksman2" equip="true" showpreview="true" />
+      <Item identifier="ballistichelmet1" equip="true" showpreview="true" />
+      <Item identifier="pirateclotheshard" equip="true" />
+      <Item identifier="mudraptorshell" equip="true" showpreview="true" />
+      <Item identifier="machinepistol" equip="false" showpreview="true">
+        <Item identifier="smgmagazine" equip="false" />
+      </Item>
+      <Item identifier="OUTS_LMGAMMO" equip="false" showpreview="true" />
+      <Item identifier="OUTS_LMGAMMO" equip="false" />
+      <Item identifier="OUTS_LMGAMMO" equip="false" />
+      <Item identifier="OUTS_LMGAMMO" equip="false" />
+      <Item identifier="OUTS_LMGAMMO" equip="false" />
+      <Item identifier="OUTS_FLMGS" equip="true" showpreview="true" outfit="true" />
+      <Item identifier="flashlight">
+        <Item identifier="batterycell" />
+      </Item>
+      <Item identifier="coin" showpreview="true" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <Item identifier="coin" />
+      <PreviewSprites dims="120,109">
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+        <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+      </PreviewSprites>
+    </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="fightintruders" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+      <Order identifier="fixleaks" prioritymodifier="0.1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+  <override>
+    <Job identifier="captain" minnumber="0" maxnumber="0" minkarma="45" uicolor="0.65,0.73,0.84" vitalitymodifier="0" pricemultiplier="1.3" idlebehavior="StayInHull">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="384,256,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,669,28,28" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="helm" level="40,50" primary="true" />
+        <Skill identifier="weapons" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="medical" level="5,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="captainscap1" equip="true" />
+        <Item identifier="captainsuniform1" equip="true" outfit="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="captainspipe" equip="false" />
+        <Item identifier="revolver" equip="false">
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="captainscap2" equip="true" />
+        <Item identifier="captainsuniform2" equip="true" outfit="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="captainspipe" equip="false" />
+        <Item identifier="revolver" equip="false">
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_2.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_2.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="captainscap3" equip="true" />
+        <Item identifier="captainsuniform3" equip="true" outfit="true" />
+        <Item identifier="headset" equip="true" showpreview="false" />
+        <Item identifier="captainspipe" equip="false" />
+        <Item identifier="revolver" equip="false">
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_3.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Captain/captain_torso_[GENDER]_3.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="steer" option="maintainposition" prioritymodifier="1" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.1" />
+        <Order identifier="fixleaks" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="steer" />
+      </AppropriateOrders>
+    </Job>
+  </override>
+  <override>
+    <Job identifier="securityofficer" minnumber="0" maxnumber="0" initialcount="0" uicolor="0.57,0.48,0.43" vitalitymodifier="0" pricemultiplier="1.15" idlebehavior="Patrol">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="40,50" primary="true" />
+        <Skill identifier="medical" level="25,35" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="securityuniform1" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="smg">
+          <Item identifier="smgmagazine" showpreview="false" />
+        </Item>
+        <Item identifier="divingknife" equip="false" />
+        <Item identifier="steroids" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="handcuffs" />
+        <Item identifier="stunbaton">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="legionarmor" equip="true" />
+        <Item identifier="ballistichelmet1" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="securityuniform2" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="stungun">
+          <Item identifier="stungundart" />
+        </Item>
+        <Item identifier="stunbaton">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="stungundart" />
+        <Item identifier="handcuffs" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="legionarmor" equip="true" />
+        <Item identifier="ballistichelmet3" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_2.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_2.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="securityuniform3" equip="true" outfit="true" />
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="revolver" equip="false">
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+          <Item identifier="revolverround" />
+        </Item>
+        <Item identifier="stunbaton">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="handcuffs" />
+        <Item identifier="wrench" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="legionarmor" equip="true" />
+        <Item identifier="ballistichelmet2" equip="true" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Security/securityofficer_torso_[GENDER]_3.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <PortraitClothing>
+        <sprite name="Portrait Clothing Security Officer" texture="Content/Items/Jobgear/PortraitClothing.png" sheetindex="1,1" />
+      </PortraitClothing>
+      <AutonomousObjectives>
+        <Order identifier="fightintruders" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.75" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" ignoreatoutpost="true" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operateweapons" />
+        <Order identifier="fightintruders" />
+      </AppropriateOrders>
+    </Job>
+  </override>
+  <override>
+    <Job identifier="assistant" minnumber="0" maxnumber="0" initialcount="0" vitalitymodifier="-10" pricemultiplier="0.8" idlebehavior="Active">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="640,256,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="641,669,28,28" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="weapons" level="15,25" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="medical" level="15,25" />
+        <Skill identifier="helm" level="12.5,15" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="assistantclothes" equip="true" outfit="true" />
+        <Item identifier="wrench" />
+        <Item identifier="screwdriver" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Assistant/assistant_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Assistant/assistant_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <PortraitClothing>
+        <sprite name="Portrait Clothing Assistant" texture="Content/Items/Jobgear/PortraitClothing.png" sheetindex="0,2" />
+      </PortraitClothing>
+      <AutonomousObjectives>
+        <Order identifier="extinguishfires" prioritymodifier="1" />
+        <Order identifier="pumpwater" option="pumpout" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="repairsystems" prioritymodifier="0.5" />
+        <Order identifier="fixleaks" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.4" ignoreatoutpost="true" />
+      </AutonomousObjectives>
+    </Job>
+  </override>
+  <override>
+    <Job identifier="medicaldoctor" maxnumber="0" minkarma="30" uicolor="0.81,0.31,0.19" vitalitymodifier="0" pricemultiplier="1.15" idlebehavior="Active">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="512,256,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,698,28,28" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="medical" level="40,50" primary="true" />
+        <Skill identifier="weapons" level="15,25" />
+        <Skill identifier="mechanical" level="15,25" />
+        <Skill identifier="electrical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="doctorsuniform1" equip="true" outfit="true">
+          <Item identifier="antibloodloss2" />
+        </Item>
+        <Item identifier="healthscanner" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="syringegun" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antibiotics" />
+        <Item identifier="antidama1" />
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Medic/medic_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Medic/medic_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="doctorsuniform2" equip="true" outfit="true">
+          <Item identifier="antibloodloss1" />
+          <Item identifier="antibloodloss2" />
+          <Item identifier="antinarc" />
+        </Item>
+        <Item identifier="healthscanner" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <Item identifier="syringegun" />
+        <Item identifier="antibleeding1" />
+        <Item identifier="antidama1" />
+        <Item identifier="tonicliquid" />
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Medic/medic_torso_[GENDER]_2.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Medic/medic_torso_[GENDER]_2.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <PortraitClothing>
+        <sprite name="Portrait Clothing Medic" texture="Content/Items/Jobgear/PortraitClothing.png" sheetindex="0,1" />
+      </PortraitClothing>
+      <AutonomousObjectives>
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.2" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="rescue" />
+        <Order identifier="requestfirstaid" />
+      </AppropriateOrders>
+    </Job>
+  </override>
+  <Override>
+    <Job identifier="mechanic" minkarma="30" maxnumber="0" uicolor="0.5,0.86,0.9" vitalitymodifier="-10" pricemultiplier="1" idlebehavior="Active">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="896,256,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="641,640,28,28" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="mechanical" level="40,50" primary="true" />
+        <Skill identifier="electrical" level="25,35" />
+        <Skill identifier="weapons" level="15,25" />
+        <Skill identifier="medical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="toolbelt" equip="true">
+          <Item identifier="wrench" />
+          <Item identifier="weldingtool">
+            <Item identifier="weldingfueltank" showpreview="false" />
+          </Item>
+          <Item identifier="plasmacutter">
+            <Item identifier="oxygentank" showpreview="false" />
+          </Item>
+          <Item identifier="screwdriver" />
+        </Item>
+        <Item identifier="baseballcap" equip="true" />
+        <Item identifier="bluejumpsuit1" equip="true" outfit="true" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Mechanic/mechanic_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Mechanic/mechanic_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="toolbelt" equip="true">
+          <Item identifier="wrench" />
+          <Item identifier="screwdriver" />
+          <Item identifier="weldingtool">
+            <Item identifier="weldingfueltank" showpreview="false" />
+          </Item>
+          <Item identifier="plastic" />
+          <Item identifier="steel" />
+          <Item identifier="aluminium" />
+        </Item>
+        <Item identifier="crowbar" />
+        <Item identifier="baseballcap" equip="true" />
+        <Item identifier="bluejumpsuit2" equip="true" outfit="true" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Mechanic/mechanic_torso_[GENDER]_2.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Mechanic/mechanic_torso_[GENDER]_2.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <PortraitClothing>
+        <sprite name="Portrait Clothing Mechanic" texture="Content/Items/Jobgear/PortraitClothing.png" sheetindex="1,0" />
+      </PortraitClothing>
+      <AutonomousObjectives>
+        <Order identifier="fixleaks" prioritymodifier="1" />
+        <Order identifier="repairmechanical" prioritymodifier="1" />
+        <Order identifier="extinguishfires" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="repairsystems" prioritymodifier="0.5" />
+        <Order identifier="pumpwater" option="pumpout" prioritymodifier="0.5" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.3" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="fixleaks" />
+        <Order identifier="pumpwater" />
+        <Order identifier="repairmechanical" />
+        <Order identifier="reportbrokendevices" />
+      </AppropriateOrders>
+    </Job>
+  </Override>
+  <Override>
+    <Job identifier="engineer" minkarma="30" maxnumber="0" uicolor="0.88,0.72,0.43" vitalitymodifier="-10" pricemultiplier="1" idlebehavior="Active">
+      <Jobicon>
+        <sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="768,256,128,128" origin="0.5,0.5" />
+      </Jobicon>
+      <JobiconSmall>
+        <sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,727,28,28" origin="0.5,0.5" />
+      </JobiconSmall>
+      <Skills>
+        <Skill identifier="electrical" level="40,50" primary="true" />
+        <Skill identifier="mechanical" level="25,35" />
+        <Skill identifier="weapons" level="15,25" />
+        <Skill identifier="medical" level="15,25" />
+        <Skill identifier="helm" level="5,10" />
+      </Skills>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="toolbelt" equip="true">
+          <Item identifier="wrench" />
+          <Item identifier="screwdriver" />
+          <Item identifier="fuelrod" />
+        </Item>
+        <Item identifier="orangejumpsuit1" equip="true" outfit="true" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Engineer/engineer_torso_[GENDER]_1.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Engineer/engineer_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <ItemSet>
+        <Item identifier="idcard" equip="true" showpreview="false" />
+        <Item identifier="toolbelt" equip="true">
+          <Item identifier="redwire" />
+          <Item identifier="bluewire" />
+          <Item identifier="orangewire" />
+          <Item identifier="button" />
+          <Item identifier="fpgacircuit" />
+          <Item identifier="relaycomponent" />
+        </Item>
+        <Item identifier="screwdriver" />
+        <Item identifier="wrench" />
+        <Item identifier="orangejumpsuit2" equip="true" outfit="true" />
+        <Item identifier="headset" equip="true" showpreview="false">
+          <Item identifier="batterycell" showpreview="false" />
+        </Item>
+        <PreviewSprites dims="120,109">
+          <sprite texture="Content/Items/Jobgear/Engineer/engineer_torso_[GENDER]_2.png" sourcerect="2,38,120,109" offset="0,0" />
+          <sprite texture="Content/Items/Jobgear/Engineer/engineer_torso_[GENDER]_2.png" sourcerect="121,0,76,80" offset="-20,15" />
+        </PreviewSprites>
+      </ItemSet>
+      <PortraitClothing>
+        <sprite name="Portrait Clothing Engineer" texture="Content/Items/Jobgear/PortraitClothing.png" sheetindex="0,0" />
+      </PortraitClothing>
+      <AutonomousObjectives>
+        <Order identifier="extinguishfires" prioritymodifier="1" />
+        <Order identifier="repairelectrical" prioritymodifier="1" />
+        <Order identifier="rescue" prioritymodifier="1" />
+        <Order identifier="fixleaks" prioritymodifier="0.75" />
+        <Order identifier="operatereactor" option="powerup" prioritymodifier="0.5" />
+        <Order identifier="repairsystems" prioritymodifier="0.5" />
+        <Order identifier="pumpwater" option="pumpout" prioritymodifier="0.1" />
+      </AutonomousObjectives>
+      <AppropriateOrders>
+        <Order identifier="operatereactor" />
+        <Order identifier="repairelectrical" />
+        <Order identifier="chargebatteries" />
+        <Order identifier="reportbrokendevices" />
+      </AppropriateOrders>
+    </Job>
+  </Override>
+</Jobs>

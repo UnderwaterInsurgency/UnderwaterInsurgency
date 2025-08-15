@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<override>
+  <backgroundcreatures>
+    <PrincessCupcakeB speed="200.0" wanderamount="3.0" wanderzamount="0.1" swarmmin="1" swarmmax="3" swarmradius="500" scale="0.5" commonness="100" mindepth="0" maxdepth="8000" fadeoutdepth="10000">
+      <Sprite texture="%ModDir%\Sprites\PrincessCupcakeBackground.png" sourcerect="0,0,288,83" />
+    </PrincessCupcakeB>
+    <!--DeadSwashbuckler speed ="200.0" wanderamount="3.0" wanderzamount="0.1" swarmmin="1" swarmmax="3" swarmradius="500" scale="0.5" commonness="50" mindepth="0" maxdepth="8000" fadeoutdepth="10000">
+      <Sprite texture="%ModDir%/Sprites/PrincessCupcakeBackground.png" sourcerect="0,0,288,83"/>
+    </DeadSwashbuckler-->
+  </backgroundcreatures>
+</override>

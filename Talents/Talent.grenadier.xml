@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="saboteur1">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,3" sheetelementsize="128,128" />
+    <Description tag="talentdescription.saboteur1">
+      <Replace tag="[boom]" value="50%" color="gui.orange" />
+      <Replace tag="[damagebuff]" value="25%" color="gui.orange" />
+    </Description>
+    <Description tag="talentdescription.crafthighqualityexplosives">
+      <Replace tag="[qualitybonus]" value="1" color="gui.green" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="ExplosionRadiusMultiplier" value="0.5" />
+        <CharacterAbilityGiveStat stattype="ExplosionDamageMultiplier" value="0.5" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="saboteurbonus" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.25" />
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <Talent identifier="saboteur2">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="4,7" sheetelementsize="128,128" />
+    <Description tag="talentdescription.saboteur2">
+      <Replace tag="[40mmflak]" value="40mmflak" color="gui.orange" />
+      <Replace tag="[m249magazinepen]" value="M249 100 upgraded round pack" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="40mmflak" />
+    <AddedRecipe itemidentifier="m249magazinepen" />
+  </Talent>
+  <Talent identifier="grenadiertagtalent">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,3" sheetelementsize="128,128" />
+    <Description tag="talentdescription.grenadiertagtalent">
+      <Replace tag="[boom]" value="10%" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="ExplosionRadiusMultiplier" value="0.1" />
+        <CharacterAbilityGiveStat stattype="ExplosionDamageMultiplier" value="0.1" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="40mmgrenade" />
+    <AddedRecipe itemidentifier="respack" />
+  </Talent>
+  <Talent identifier="saboteurtagtalent">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,3" sheetelementsize="128,128" />
+    <Description tag="talentdescription.saboteurtagtalent">
+      <Replace tag="[boom]" value="10%" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="saboteurbonus" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.1" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="m249magazine" />
+    <AddedRecipe itemidentifier="respack" />
+  </Talent>
+</Talents>

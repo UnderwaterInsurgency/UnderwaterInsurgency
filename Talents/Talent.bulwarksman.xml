@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="bulwarksman1a">
+    <Description tag="talentdescription.bulwarksman1a">
+      <Replace tag="[40]" value="40%" color="gui.orange" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="3,2" sheetelementsize="128,128" />
+    <AbilityGroupInterval interval="1">
+      <Conditions>
+        <AbilityConditionHasVelocity velocity="0.1" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <ReduceAffliction identifier="turtleup" amount="3.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="1">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="turtleup" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+  <Talent identifier="bulwarksman2a">
+    <Description tag="talentdescription.bulwarksman2a">
+      <Replace tag="[light]" value="Light" color="gui.orange" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="0,6" sheetelementsize="128,128" />
+    <AddedRecipe itemidentifier="OUTS_LMGSl" />
+    <AddedRecipe itemidentifier="OUTS_FLMGSl" />
+  </Talent>
+  <Talent identifier="bulwarksman1b">
+    <Description tag="talentdescription.bulwarksman1b">
+      <Replace tag="[immunity]" value="immunity" color="gui.orange" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="2,0" sheetelementsize="128,128" />
+    <AbilityGroupInterval interval="1">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="hoplitecharging" amount="1.0" />
+              <Affliction identifier="bracedforimpact" amount="1.0" />
+              <ReduceAffliction identifier="blunttrauma" strength="0.5" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnRagdoll">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="hoplitecharging" minimumpercentage="1.0" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="This" disabledeltatime="true">
+              <Affliction identifier="hoplitecharge" amount="10.0" />
+              <ReduceAffliction identifier="hoplitecharging" amount="10" />
+            </StatusEffect>
+            <StatusEffect type="OnAbility" target="This" disabledeltatime="false" delay="1">
+              <Explosion range="100" force="400" showeffects="false" shockwave="true" canflipx="true">
+                <Affliction identifier="stun" amount="2.0" />
+                <Affliction identifier="blunttrauma" strength="10" />
+              </Explosion>
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval interval="0.2">
+      <Conditions>
+        <AbilityConditionRagdolled />
+        <AbilityConditionHasVelocity velocity="2.5" />
+        <AbilityConditionHasAffliction afflictionidentifier="hoplitecharge" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" canflipx="true">
+              <!-- Spawns an exploding item where the character *was* to send him foward. -->
+              <SpawnItem identifiers="chargeemitter" spawnposition="This" />
+              <Affliction identifier="stun" strength="0.1" />
+            </StatusEffect>
+            <!-- Tried to make it end when hitting a wall, just ended up stopping on the floor -->
+            <!--StatusEffect type="OnImpact" target="Character" disabledeltatime="true">
+              <ReduceAffliction identifier="hoplitecharge" amount="1"/>			  
+            </StatusEffect-->
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityApplyStatusEffects nearbycharactersappliestoself="false" nearbycharactersappliestoallies="false">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="NearbyCharacters" range="120" setvalue="false" disabledeltatime="false">
+              <Affliction identifier="blunttrauma" strength="20" />
+              <Affliction identifier="stun" strength="0.1" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+        <!-- Old code, previous prototype -->
+        <!--CharacterAbilityApplyStatusEffects nearbycharactersappliestoself="false">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="NearbyCharacters" range="70" setvalue="true" disabledeltatime="true">
+              <Affliction identifier="stun" strength="0.5" />
+			  <Affliction identifier="blunttrauma" strength="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityApplyStatusEffects nearbycharactersappliestoself="false">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="NearbyCharacters" range="20" setvalue="true" disabledeltatime="true">
+              <Affliction identifier="stun" strength="10" />
+			  <Affliction identifier="blunttrauma" strength="30.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects-->
+      </Abilities>
+    </AbilityGroupInterval>
+    <!-- Instakill for test purposes.
+    <AbilityGroupInterval interval="0.6">
+    <Conditions>
+      <AbilityConditionRagdolled />
+      <AbilityConditionHasVelocity velocity="2.5" />
+      <AbilityConditionHasAffliction afflictionidentifier="hoplitecharge" />
+    </Conditions>      
+	  <Abilities>
+	    <CharacterAbilityApplyStatusEffects nearbycharactersappliestoself="false" nearbycharactersappliestoallies="false">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="NearbyCharacters" range="120" setvalue="false" disabledeltatime="true">
+              <Affliction identifier="blunttrauma" strength="200" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+	</AbilityGroupInterval-->
+  </Talent>
+  <Talent identifier="bulwarksman2b">
+    <Description tag="talentdescription.bulwarksman2b">
+      <Replace tag="[spineling]" value="Spineling Shell Fragment" color="gui.orange" />
+    </Description>
+    <Icon texture="%ModDir%/Sprites/UI.png" sheetindex="0,0" sheetelementsize="128,128" />
+    <AddedRecipe itemidentifier="piratespineshield" />
+  </Talent>
+  <Talent identifier="bulwarksmantagtalent1">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,3" sheetelementsize="128,128" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="1.5" />
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="-0.15" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="raptoressence" />
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent>
+  <Talent identifier="bulwarksmantagtalent2">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,3" sheetelementsize="128,128" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="1.0" />
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="-0.1" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="raptoressence" />
+    <AddedRecipe itemidentifier="OUTS_LMGAMMO" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent>
+</Talents>

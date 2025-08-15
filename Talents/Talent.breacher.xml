@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="breacher1">
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="6,4" sheetelementsize="128,128" />
+    <Description tag="talentdescription.breacher1">
+      <Replace tag="[health]" value="50" color="gui.orange" />
+      <Replace tag="[resist]" value="50%" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnAttackedResult">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="This" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="stonewall2" amount="4.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="0.5" />
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <!--Talent identifier="breacher2">
+    <Description tag="talentdescription.breacher2">
+      <Replace tag="[stun]" value="4" color="gui.orange" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,5" sheetelementsize="128,128" />
+    <AbilityGroupInterval interval="1">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true" disabledeltatime="true">
+              <Affliction identifier="quickdrawing" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="quickdrawing" minimumpercentage="1.0" />
+        <AbilityConditionAttackData tags="pursuit" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.25" />
+        <CharacterAbilityGiveAffliction affliction="stun" strength="4" setvalue="false" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnUseRangedWeapon">
+      <Conditions>
+        <AbilityConditionItem tags="pistolitem" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects-->
+  <!-- small delay so we don't remove the affliction before the attack is applied -->
+  <!--StatusEffect type="OnAbility" target="This" delay="0.05" stackable="false" disabledeltatime="true">
+              <ReduceAffliction identifier="quickdrawing" strength="8" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent-->
+  <Talent identifier="breacher2">
+    <Description tag="talentdescription.breacher2">
+      <Replace tag="[20]" value="20" color="gui.orange" />
+      <Replace tag="[pursuit]" value="Pursuit" color="gui.orange" />
+      <Replace tag="[5]" value="5" color="gui.orange" />
+    </Description>
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="5,4" sheetelementsize="128,128" />
+    <AbilityGroupInterval interval="1">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="pursuitcharging" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnRagdoll">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="pursuitcharging" minimumpercentage="1.0" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="This" disabledeltatime="true">
+              <Affliction identifier="pursuitactive" amount="10.0" />
+              <sound file="%ModDir%/Audio/pursuitSFX.ogg" range="500" />
+              <ReduceAffliction identifier="pursuitcharging" amount="10" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionHasAffliction TargetSelf="True" afflictionidentifier="pursuitactive" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityGiveAffliction affliction="stun" strength="5" />
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Parent" disabledeltatime="true">
+              <ReduceAffliction identifier="pursuitactive" amount="10" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <Talent identifier="breachertagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,4" sheetelementsize="128,128" />
+    <Description tag="talentdescription.breachertagtalent">
+      <Replace tag="[bleed]" value="10" color="gui.orange" />
+    </Description>
+    <AbilityGroupInterval>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character">
+              <!-- currently 10x bleeding recovery compared to normal -->
+              <ReduceAffliction identifier="bleeding" strength="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveFlag flagtype="MoveNormallyWhileDragging" />
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="-0.15" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="hepshotgunshell" />
+    <AddedRecipe itemidentifier="respack" />
+  </Talent>
+</Talents>

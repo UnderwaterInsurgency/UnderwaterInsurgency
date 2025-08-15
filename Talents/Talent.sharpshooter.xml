@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="snipertagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,4" sheetelementsize="128,128" />
+    <Description tag="talentdescription.snipertagtalent" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="0.5" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <!--AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionNearbyCharacterCount distance="99999" TargetType="Enemy,Alive,NotSelf" comparison="and" count="5" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="20" />
+      </Abilities>
+    </AbilityGroupEffect>
+	<AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionAllyNearby distance="5" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="lonewolf" amount="1.0"/>
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval-->
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="respack" />
+    <AddedRecipe itemidentifier="40mmgrenade" />
+    <AddedRecipe itemidentifier="40mmflechette" />
+  </Talent>
+</Talents>
+<!--Talent identifier="sharpshooter1">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,4" sheetelementsize="128,128" />
+    <Description tag="talentdescription.snipertagtalent" />
+    <AddedRecipe itemidentifier="xm3megazoom" />
+  </Talent>
+  <Talent identifier="sharpshooter1">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,4" sheetelementsize="128,128" />
+    <Description tag="talentdescription.snipertagtalent" />
+    <AddedRecipe itemidentifier="xm3megazoom" />
+  </Talent-->

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="amoebatalent">
+    <Description tag="talentdescription.amoebatalent" />
+    <Icon texture="%ModDir%/Sprites/UI.png" sheetindex="7,7" sheetelementsize="128,128" />
+    <AbilityGroupInterval interval="0.2">
+      <Conditions>
+        <AbilityConditionHasVelocity velocity="0.6" />
+        <AbilityConditionHasAffliction afflictionidentifier="amoeba" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Limb" disabledeltatime="true">
+              <Affliction identifier="amoebadamage" strength="0.5" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+  </Talent>
+</Talents>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <jobname.coalitionteamcaptain>Coalition Captain</jobname.coalitionteamcaptain>
+  <jobdescription.coalitionteamcaptain>Captain Ace Blackbird, thats the name of the brave men who took on the mission on infiltrating the main base of operations of the biggest pirate clan to exist. With either a support loadout with a tracker and a AOE speed boost for everyone around, or with a sniper to help allies from far away, this troop is indispensable due to his ability to give his allies talents.</jobdescription.coalitionteamcaptain>
+  <jobname.coalitionsniper>Coalition Sharpshooter</jobname.coalitionsniper>
+  <jobdescription.coalitionsniper>An ace sniper, shoot enemies from very far away, protecting dozens of meters at a time. Spot enemies from afar and focus on stroger enemies.</jobdescription.coalitionsniper>
+  <jobname.coalitionsaboteur>Saboteur</jobname.coalitionsaboteur>
+  <jobdescription.coalitionsaboteur>A long distance heavy hitter. With his MK-14 and mountable mortar, he can do explosive damage from a save range, just mind the ammo count.</jobdescription.coalitionsaboteur>
+  <jobname.coalitionmedic>Battle Medic</jobname.coalitionmedic>
+  <jobdescription.coalitionmedic>Unarmored but still necessary, the Battle Medic bears a advanced syringe gun, which is able to deliver healing and killing in equal amounts in greater distance, as if he was injecting them personaly. his poisons may work slowly, but the death is way more certain(unless you kill him and get the antidote)</jobdescription.coalitionmedic>
+  <jobname.coalitionrifleman>Rifleman</jobname.coalitionrifleman>
+  <jobdescription.coalitionrifleman>Standard coalition troop, he may not have many fancy explosives, or expensive drugs, but he has the ability of keep consistant fire more than any other troop.</jobdescription.coalitionrifleman>
+  <jobname.coalitionbreacher>Coalition Breacher</jobname.coalitionbreacher>
+  <jobdescription.coalitionbreacher>TODO A trained coalition B, his physical prowess not only allows him to take more damage, but also carry his allies to safety faster. Go to the frontline and protect your team.</jobdescription.coalitionbreacher>
+  <jobname.coalitioninfiltrator>Infiltrator</jobname.coalitioninfiltrator>
+  <jobdescription.coalitioninfiltrator>A unit focused on ambushing their enemies and locking down positions. Use your IEDs to punish non-attentive rushers and lock down passages your low-ammo but high-damage SR-3M, capable of quickly disposing of most squisher troops.</jobdescription.coalitioninfiltrator>
+  <jobname.warboss>Warboss</jobname.warboss>
+  <jobdescription.warboss>The most feared pirate on the Europa, Chad Thundercock. Sporting an arsenal of powerful weaponry and a nearly impenetrable mechanized armour suit while leading a massive warband of scum and other assorted outlaws he is a force to be reckoned with.</jobdescription.warboss>
+  <jobname.piraterifleman>Warband Privateer</jobname.piraterifleman>
+  <jobdescription.piraterifleman>Regular run of the mill scum that somehow got into the warband, by luck or actual skill does not really matter because they will still used as cannon fodder for the glory of the warband.</jobdescription.piraterifleman>
+  <jobname.pirategrenadier>Warband Swashbuckler</jobname.pirategrenadier>
+  <jobdescription.pirategrenadier>An a Elite member of the warband. Bolstering wide knowledge of explosives and other doo-dads that go boom, he has the necessary arsenal of weapons to easily wipe any crew of a coalition submarine alone if he were to board one.</jobdescription.pirategrenadier>
+  <jobname.piratemelee>Warband Bucaneer</jobname.piratemelee>
+  <jobdescription.piratemelee>A less than normal member of the warband that prefers using close combat as means to defeat the enemy, all the while indulging himself in a drug induced rage from the homemade cocktail of dangerous chemicals. </jobdescription.piratemelee>
+  <jobname.pirateshieldbearer>Warband Bulwarksman</jobname.pirateshieldbearer>
+  <jobdescription.pirateshieldbearer>A strong, veteran fighter of the seas, and the warboss's right hand man. he's been clashing with humans and monsters alike for years, getting more durable and experienced with each expedition. With an endurance rivaled only by the warboss, and a nearly impenetrable shield which his crew stripped from the shell of an elder moloch, he is ready to take on anything be it the colossal creatures of the abyss or the entire coalition fleet itself.</jobdescription.pirateshieldbearer>
+  <talentname.breacher1>Coalition's Might</talentname.breacher1>
+  <talentdescription.breacher1>Health increased by [health]. As soon as you're hit, your gain [resist] stun and damage resist.</talentdescription.breacher1>
+  <talentname.breacher2>Pursuit</talentname.breacher2>
+  <talentdescription.breacher2>With a cooldown of [10] seconds, you can tap Space Bar to enter a [pursuit] mode. For 5 seconds, you gain a speed boost and the next person you attack with your baton becomes stunned for [5] seconds, ending your boost.</talentdescription.breacher2>
+  <talentname.medic1>Backline Medic</talentname.medic1>
+  <talentdescription.medic1>Medicine you apply is buffed by [medboost]. When you heal someone, increase their hp by [healthboost]. Unlock [adrenalineshot] recipe and gives you [10] medical skill.</talentdescription.medic1>
+  <talentname.medic2>Frontline Medic</talentname.medic2>
+  <talentdescription.medic2>Poisons you apply are [poisonboost] more potent. If an ally is down, get a speed boost and [resist] damage and stun resist. Have no movement penalty while carying people. Gives you the [E.D.S] crafting recipe.</talentdescription.medic2>
+  <talentname.saboteur1>Bigger Bang</talentname.saboteur1>
+  <talentdescription.saboteur1>Your explosives now have damage and range increased by [boom].<!--, and the M249's damage increases by [damagebuff].--></talentdescription.saboteur1>
+  <talentname.saboteur2>Handheld Howtzier</talentname.saboteur2>
+  <talentdescription.saboteur2>Unlocks the [40mmflak], which detonates 0,6 seconds after being shot, instead of on impact, allowing you to shoot through allies. Covers 11 meters, or roughly the edge of the screen.<!-- Also allows you to make the [m249magazinepen], a type of ammo capable of higher levels of piercing.--></talentdescription.saboteur2>
+  <talentname.rifleman1>Extra Firepower</talentname.rifleman1>
+  <talentdescription.rifleman1>Your attacks with now do [damagebuff] more damage.</talentdescription.rifleman1>
+  <talentname.rifleman2>Suppresive Fire</talentname.rifleman2>
+  <talentdescription.rifleman2>Attacks done with your weapon apply [concussion], slowing people down, staggering their vision and lowering their accuracy.</talentdescription.rifleman2>
+  <talentname.bucaneer1>Explosive Cocktail</talentname.bucaneer1>
+  <talentdescription.bucaneer1>So many chemicals in your body have turned you into a dangerouns bioweapon. Gain [HP] extra hp. When going down to 0 hp, instead of going unconscious, [explode] into a cloud of poisonous smoke that downs nearby creatures in seconds.</talentdescription.bucaneer1>
+  <talentname.bucaneer2>Princess Cupcake Rehabilitation Programme</talentname.bucaneer2>
+  <talentdescription.bucaneer2>Most beloved pet of The warboss And warband's main mascot [cupcake] has served as a big morale motivator for a long time in The Warband but recent studies have shown that [giantmudraptor] crossbreeds require regular acts of violence to keep themselves composed and cute.</talentdescription.bucaneer2>
+  <talentname.swashbuckler1>Warband Airlines.</talentname.swashbuckler1>
+  <talentdescription.swashbuckler1>Unlocks the [jetpack], a piece of technology salvaged from ancient blueprints capable of allowing fast vertical mobility.</talentdescription.swashbuckler1>
+  <talentname.swashbuckler2>Friends Close, Enemies Closer.</talentname.swashbuckler2>
+  <talentdescription.swashbuckler2>Unlocks the [caber], a bundle of grenades for you to smash into the enemy for instant incredible damage. Gain [explosiveres] explosion resistance, barely enough for you to survive the blast.</talentdescription.swashbuckler2>
+  <talentname.privateer1>Wünderwaffe</talentname.privateer1>
+  <talentdescription.privateer1>You have tapped into your german ancestry to unleash you stimulant-fueled engineering. Unlocks the [shotgun] and [glockinator], two weapon with twice the ammo capacity and firerate.</talentdescription.privateer1>
+  <talentname.privateer2>Übercommander</talentname.privateer2>
+  <talentdescription.privateer2>With precision, courage, and a lot of gunpoweder, you managed to weld togheter one of the most destructive hand held explosive ever seen. Unlocks the [cluster], a grenade that after the initial explosion splits into [9] different, smaller grenades.</talentdescription.privateer2>
+  <talentname.bulwarksman1a>Turtle Up</talentname.bulwarksman1a>
+  <talentdescription.bulwarksman1a>Gain up to [40] by stading still for 8 seconds. Quickly dimishes when moving.</talentdescription.bulwarksman1a>
+  <talentname.bulwarksman2a>The Forward Key</talentname.bulwarksman2a>
+  <talentdescription.bulwarksman2a>Unlocks the [light] MG34, a modified version with less shielding, but allows movement while deployed.</talentdescription.bulwarksman2a>
+  <talentname.bulwarksman1b>Shock and Awe</talentname.bulwarksman1b>
+  <talentdescription.bulwarksman1b>Use a burst of all your strength to uncontrollably charge onward, creating shockwaves with each step that push and hurt everyone around you. Gain [immunity] to blunt damage while charging.</talentdescription.bulwarksman1b>
+  <talentname.bulwarksman2b>The hell is a ''Hwacha''?</talentname.bulwarksman2b>
+  <talentdescription.bulwarksman2b>Unlocks the [spineling], a modified version of your moloch shield, with half as much maximum hp, but capable of shooting self-regenerating spikes at cost of its durability and regenerating with that durability with time.</talentdescription.bulwarksman2b>
+  <talentname.riflemantagtalent>Rifleman's tag.</talentname.riflemantagtalent>
+  <talentdescription.riflemantagtalent>You are a Coalition rifleman, with a strong DPS. Gain [%] more damage for every other coalition rifleman out there, up to [max%].</talentdescription.riflemantagtalent>
+  <talentname.infiltratortagtalent>Infiltrator's tag.</talentname.infiltratortagtalent>
+  <talentdescription.riflemantagtalent>You are a Coalition Infiltrator, your job is to block entryways, be it with your SR-3M or your Improvised Explosives Devices.</talentdescription.riflemantagtalent>
+  <talentname.medictagtalent>Medic's tag.</talentname.medictagtalent>
+  <talentdescription.medictagtalent>You're a Coalition medic, you are the only one able to heal your team consistently, but you can also shoot poisons at the enemies to deal damage over time. Your medicine heals [amount] more than normal.</talentdescription.medictagtalent>
+  <talentname.grenadiertagtalent>Grenadier's tag.</talentname.grenadiertagtalent>
+  <talentdescription.grenadiertagtalent>You are a Coalition grenadier, you are your team's best source of instant, area damage, but your ammo is very limited. Gain a [boom] buff to explosive damage and range.</talentdescription.grenadiertagtalent>
+  <talentname.saboteurtagtalent>Saboteur's tag.</talentname.saboteurtagtalent>
+  <talentdescription.saboteurtagtalent>Use your M249 to shoot penetrating bullets capable of flying a short distance after impact, allowing for killing behind cover. Gain a [boom] buff to M249 damage.</talentdescription.saboteurtagtalent>
+  <talentname.breachertagtalent>breacher's tag.</talentname.breachertagtalent>
+  <talentdescription.breachertagtalent>You are a Coalition Breacher, you are the frontline of your team. You have 2x the normal amount of health and your shield can hold the enemy fire for a long time. You regenerate from bleeding [bleed] times faster and can easily carry unconscious people.</talentdescription.breachertagtalent>
+  <talentname.captaintagtalent1>Captain's tag.</talentname.captaintagtalent1>
+  <talentdescription.captaintagtalent1>Lead the team and find enemies with your heat vision. Gain a warcry ability that boosts the running speed of everyone around you.</talentdescription.captaintagtalent1>
+  <talentname.snipertagtalent>Sniper's tag.</talentname.snipertagtalent>
+  <talentdescription.snipertagtalent>Swap the utility of firerate for a powerful sniper capable of seeing far away and either doing huge damage or piercing many enemies and their armor.</talentdescription.snipertagtalent>
+  <talentname.warbosstagtalent>Warboss's tag</talentname.warbosstagtalent>
+  <talentname.privateertagtalent>Privateer's tag</talentname.privateertagtalent>
+  <talentname.bulwarksmantagtalent1>Spear Bulwarksman's tag</talentname.bulwarksmantagtalent1>
+  <talentname.bulwarksmantagtalent2>Gunner Bulwarksman's tag</talentname.bulwarksmantagtalent2>
+  <talentname.swashbucklertagtalent>Swashbuckler's tag</talentname.swashbucklertagtalent>
+  <talentname.bucaneertagtalent>Bucaneer's tag</talentname.bucaneertagtalent>
+  <talentdescription.bucaneertagtalent>You are a warband bucaneer. You are a melee focused unit equip with powerful one time use throwables are some rudimentary medicine. You are very versatile, being able to be the teams """medic""",  a ambush predator on lone fools,  a formation breaker, or simply grenade bait. [downside]</talentdescription.bucaneertagtalent>
+  <entitydescription.40mmflak>A 40mm grenade that detonates on a 0,6 second timer. Covers 11 meters, or roughly the edge of the screen.</entitydescription.40mmflak>
+  <entitydescription.OUTS_FLMGS>A weapon with a high firerate and a built-in shield, perfect for defending positions. Just be wary that you cannot walk while the weapon is deployed.(Taken from the Dr Bright's mod, Ordinance under the sea. I will delete this should he ever ask me to.)</entitydescription.OUTS_FLMGS>
+  <entitydescription.OUTS_FLMG>A weapon with a high firerate and a built-in shield, perfect for defending positions. Just be wary that you cannot walk while the weapon is deployed.(Taken from the Dr Bright's mod, Ordinance under the sea. I will delete this should he ever ask me to.)</entitydescription.OUTS_FLMG>
+  <entitydescription.OUTS_LMGS>The shield is broken, but the gun should still be able to work.(Taken from the Dr Bright's mod, Ordinance under the sea. I will delete this should he ever ask me to.)</entitydescription.OUTS_LMGS>
+  <entitydescription.OUTS_LMG>The shield is broken, but the gun should still be able to work.(Taken from the Dr Bright's mod, Ordinance under the sea. I will delete this should he ever ask me to.)</entitydescription.OUTS_LMG>
+  <entitydescription.minigunmagazine>Ammo for the minigun, a weapon that can only be used in special rounds.</entitydescription.minigunmagazine>
+  <entitydescription.minigun>A huge, unstoppable force. Can only be used in special rounds. Original minigun made by FURY, fixed version made by Noble (Milord).</entitydescription.minigun>
+  <entityname.suicidebelt>Suicide belt</entityname.suicidebelt>
+  <entitydescription.suicidebelt>Such belts, outwardly indistinguishable from tool belts, are well-spread among pirates and separatists. But even at the military outposts of the coalition, they are sold as trophies. Not effective with acid grenades. Created by the modder "feather", I will remove it from this mod if he ever asks me to.</entitydescription.suicidebelt>
+  <entitydescription.dogtagbreacher>Heavy Class. Stay in the frontline, tanking the damage for your team. Have 2x the normal amount of health, heal from bleeding faster and carry stunned people without slowing down.</entitydescription.dogtagbreacher>
+  <entitydescription.dogtaggrenadier>Medium Class. Hinder enemies accuracy and speed over a larger area with your grenades, or just blow'em up. Explosions have 10% higher damage and range.</entitydescription.dogtaggrenadier>
+  <entitydescription.dogtagsaboteur>Medium Class. Destroy enemies with your explosive damage, just mind the ammo.</entitydescription.dogtagsaboteur>
+  <entitydescription.dogtagmedic>Light Class. Keep your team alive with your medicine and ensure the enemies demise with poison. Heal 25% better.</entitydescription.dogtagmedic>
+  <entitydescription.dogtagrifleman>Medium Class. Dish out heavy, consistent damage. Gain more damage for each spawned rifleman.</entitydescription.dogtagrifleman>
+  <entitydescription.dogtaginfiltrator>Light class. Use your traps and weapon to block paths.</entitydescription.dogtaginfiltrator>
+  <entitydescription.dogtagcaptain1>Light Class. Lead the team and find enemies with your handheld PDA and Thermal Cap. Gain a warcry ability that boosts the running speed of everyone around you.</entitydescription.dogtagcaptain1>
+  <entitydescription.dogtagsniper>Medium Class. Use your sniper rifle to defeat threats from far away and defend whole areas alone, just watch the laser.</entitydescription.dogtagsniper>
+  <entitydescription.dogtagbucaneer>Light Class. Use your melee and throwable weapons to break the enemy line and use your drugs to help your brothers in arms. Gain Stun Immunity.</entitydescription.dogtagbucaneer>
+  <entitydescription.dogtagbulwarksman1>Super Heavy Class. Sluggish, but very tanky. Use your shield to block enemy bullets and pierce multiple enemies with your spear.</entitydescription.dogtagbulwarksman1>
+  <entitydescription.dogtagbulwarksman2>Heavy Class. Use your MG34 to defend any position, with the downside of not being able to move while its deployed.</entitydescription.dogtagbulwarksman2>
+  <entitydescription.dogtagprivateer>Medium Class. With a loaded pockets and either dual machine pistols or a shotgun, privateers are the most versatile warband class, always having the goal of dishing out damage.</entitydescription.dogtagprivateer>
+  <entitydescription.dogtagswashbuckler>Light Class. Mobile and loaded with explosives, the swashbuckler is perfect for getting places fast and blowing things up.</entitydescription.dogtagswashbuckler>
+  <entitydescription.dogtagwarboss>Heavy Class. The literal tank of the warband. Decide who on your team needs a "boost", support your infantry with your assault rifle and survive due to your great armor. Just remember you're slow and not invincible.</entitydescription.dogtagwarboss>
+  <afflictionname.stonewall2>Damage reduction</afflictionname.stonewall2>
+  <afflictiondescription.stonewall2>Damage reduced by 25%.</afflictiondescription.stonewall2>
+  <afflictionname.bucaneerhigh>Bucaneer High.</afflictionname.bucaneerhigh>
+  <afflictiondescription.bucaneerhigh>All those drugs you took made you able to fully ignore stun! Although, this bucaneer's "Jitters" made him unable to handle a gun to save his life. Use your melee and throwing weapons.</afflictiondescription.bucaneerhigh>
+  <afflictionname.invincibility>Pre-game immunity</afflictionname.invincibility>
+  <afflictiondescription.invincibility>The match has not started yet, so use this time to strategize and buy things at the shop. Behave! Any bullets shot will not be reimbursed.</afflictiondescription.invincibility>
+  <afflictionname.devilsthirst>Devil's Thirst.</afflictionname.devilsthirst>
+  <afflictiondescription.devilsthirst>The patient has used an anabolic alien substance to capable of increasingly enhance his own martial prowess. Unfortunatly, that drug also affects their brain, requiring them to undergo constant combat or else they will suffer an aneurysm.</afflictiondescription.devilsthirst>
+  <afflictiondescription.devilsthirst.self>You feel ready! LETS TEAR THAT COALITION SCUM, NOW OR NEVER!</afflictiondescription.devilsthirst.self>
+  <afflictionname.devilstoll>Devil's Toll.</afflictionname.devilstoll>
+  <afflictiondescription.devilstoll>The negative effects of "Devil's Toll" have started to settle in. Evident blurry vision, surges of vomit and the splitting headaches are notable on the patient.</afflictiondescription.devilstoll>
+  <afflictiondescription.devilstoll.self>You feel like your whole body is burning, you can barely see or think straight, and you have a headache so overwhelming you feel like you head is gonna explode.</afflictiondescription.devilstoll.self>
+  <afflictionname.respackcooldown>Über Toll.</afflictionname.respackcooldown>
+  <afflictiondescription.respackcooldown>Having reached the other end of the pearly gates and then being brought back takes a toll on your body. Reduces vitality by 50.</afflictiondescription.respackcooldown>
+  <afflictionname.armorbreak>Armor Broken.</afflictionname.armorbreak>
+  <afflictionname.concussion2>Concussion.</afflictionname.concussion2>
+  <afflictiondescription.concussion2>You've been hit with a concussive blast and are now temporarily staggered.</afflictiondescription.concussion2>
+  <afflictionname.coagulating>Accelerated Coagulation.</afflictionname.coagulating>
+  <afflictiondescription.coagulating>Wounds in your body are slowly closing, your skin is healing, and your body is pushing to produce more blood.</afflictiondescription.coagulating>
+  <afflictionname.qunkiumpoisoning>Qunkium Poisoning</afflictionname.qunkiumpoisoning>
+  <afflictiondescription.qunkiumpoisoning>The patient feels sick, sluggish, and feels like their organs are on fire.</afflictiondescription.qunkiumpoisoning>
+  <afflictionname.qunkdamage>Internal burning.</afflictionname.qunkdamage>
+  <afflictiondescription.qunkdamage>The patient feels an intense pain inside their chest. Flames can be seen coming out of their mouth.</afflictiondescription.qunkdamage>
+  <afflictionname.piezocharged>Unstable Piezo Charge.</afflictionname.piezocharged>
+  <afflictiondescription.piezocharged>The eletricity coursing through the patient's body has increased their running speed, but will shock everyone around them when it reaches full capacity.</afflictiondescription.piezocharged>
+  <afflictionname.amoeba>Movement Sensitive Amoeba</afflictionname.amoeba>
+  <afflictiondescription.amoeba>The patient is covered in a goo that is eating their flesh alive whenever exert any effort. DONT MOVE OR IT WILL HURT!</afflictiondescription.amoeba>
+  <afflictionname.liverifleman>Strengh in Numbers</afflictionname.liverifleman>
+  <afflictiondescription.liverifleman.low.self>You are alone, there's no one left to help you.</afflictiondescription.liverifleman.low.self>
+  <afflictiondescription.liverifleman.high.self>Gain extra damage for every rifleman comrade by your side.</afflictiondescription.liverifleman.high.self>
+  <afflictionname.iswarband>Warband Scum</afflictionname.iswarband>
+  <afflictiondescription.iswarband>This person is a memnber of the Warband.</afflictiondescription.iswarband>
+  <afflictionname.bracedforimpact>Braced for Impact</afflictionname.bracedforimpact>
+  <afflictiondescription.bracedforimpact>Immune to Blunt Force Trauma.</afflictiondescription.bracedforimpact>
+  <afflictionname.hoplitecharging>Hoplite Charging (cooldown)</afflictionname.hoplitecharging>
+  <afflictiondescription.hoplitecharging>Catching your breath for the next charge. At full, just tap [Space Bar] to rush forward.</afflictiondescription.hoplitecharging>
+  <afflictionname.hoplitecharge>Hoplite Charge!</afflictionname.hoplitecharge>
+  <afflictiondescription.hoplitecharge>LETS FUCKING GOOOOOOO!</afflictiondescription.hoplitecharge>
+  <afflictionname.dabossrulez>Da Boss RULEZ!</afflictionname.dabossrulez>
+  <afflictiondescription.dabossrulez>Inspired by your boss' rallying presence (and the threat of execution), you feel more motivated to do better agaisnt the coalition. The boss wouldn't lose, right?</afflictiondescription.dabossrulez>
+  <talentname.amoebatalent>Covered in goo</talentname.amoebatalent>
+  <talentdescription.amoebatalent>You've been previously hit with an adhesive mucus that damages you when you move. It becomes neutralized once it dries up.</talentdescription.amoebatalent>
+  <entitydescription.bucaneersblade>A pair of twin blades, good for spreading damage over time and inflicting bleed. Great for crowds! Can't break walls.</entitydescription.bucaneersblade>
+  <entitydescription.bucaneeraxe>A huge, upgraded axe, capable of dealing high bursts of damage at once. Instakills downed enemies. Good at wrecking things.</entitydescription.bucaneeraxe>
+  <entitydescription.lasersight>Aim assistance accesory, decreased gun spread over time as long as its active, for the trade off of showing where you're aiming.</entitydescription.lasersight>
+  <entitydescription.apshotgunshell>Shotgun shell loaded with small darts that provide impressive spread control and armor penetration over other type of shells.</entitydescription.apshotgunshell>
+  <entitydescription.tripleshotgun>Masterpiece of the warband gunsmith that takes up on the original double barrel achieving more bullets shot per capita, allows for shooting all 3 barrels at once.</entitydescription.tripleshotgun>
+  <entitydescription.glockinator>Most powerful weapon of the warband made from 2 machine pistols merged together with a third one given by god himself.</entitydescription.glockinator>
+  <entitydescription.sextupleshotgun>A incarnation of calamity born out of your contempt for the natural order. Remenber to hold the trigger all the way!</entitydescription.sextupleshotgun>
+  <entitydescription.AA-12>AA-12-Fully automatic shotgun with a 8 round capacity magazine with the ability to install a drum mag offering the much needed crowd control coalition soldiers need.</entitydescription.AA-12>
+  <entitydescription.m249magazine>50 rounds of bullets with enough strength to keep flying for a short period after impact with an target.</entitydescription.m249magazine>
+  <entitydescription.m249magazinepen>These bullets dont do more damage to each individual target, but instead they have a higher lifespan after impact, allowing for hitting even further away. Perfect for dealing with those pesky bulwarksmen.</entitydescription.m249magazinepen>
+  <entitydescription.m249>An alternative to the burst, radius damage of the grenade launcher. Exchanges the quick damage and stun for a continuos, no stun, stream of bullets that pierce their targets to reach someone behind them.</entitydescription.m249>
+  <entitydescription.ipad>A special handheld device that was part of the coalition's effort to deal with the decaying performance of their troops. Although, captains have been developing some... excentric tactics to maintain the team's morale. The batery is weak, and should only last about 10 minutes.</entitydescription.ipad>
+  <entitydescription.respack>A one-time use resuscitation device capable of of injecting morphine and blood loss in the event of the user reaching critical state. WARNING: CAUSES SEVERE PERMANT DAMAGE TO THE USER DUE TO HASTY APPLICATION.</entitydescription.respack>
+  <entitydescription.thedevilsthirst>An alien substance recently found in ruins at the deepest ruins explored yet. Testing shows that this substance increases the user's physical attributes, as well as healing factor, being increased. However, it also seems to give the subject an "addiction to violence", and should they not commit to it, the withdraw would cause a heart attack followed by an aneurysm. You'll have 1:19 seconds after injecting this to engage in combat before the withdraw kills you, and that timer will get even more strict the more time passes. (EPILEPSY WARNING AT LATER STAGES!)</entitydescription.thedevilsthirst>
+  <entitydescription.hypercoagulant>An artery sealing chemical mixture, capable of sealing all bleeding with lightning speed, while also being able to minorly heal other wounds. It is capable of instantly halting blood loss by increasing blood platelets and inducing regeneration of the skin cells.</entitydescription.hypercoagulant>
+  <entitydescription.gmuinjection>An adrenaline filled syringe capable of instantly awaking people from stun or low oxygen. Short for "GET ME UP!", made from "(2S)-N-Methyl-1-Femnyl-2-boypanamine".</entitydescription.gmuinjection>
+  <entitydescription.amoebagrenade>A canister filled with a muscle eating amoeba that eats people's muscles when they move.</entitydescription.amoebagrenade>
+  <entitydescription.lifedartgun>A dart gun that sends out air-propelled powerful healing dart.</entitydescription.lifedartgun>
+  <entitydescription.lifedart>An expensive but powerful healing dart with a mix of Fentanyl and Hypercoagulant. You only have one, use wisely.</entitydescription.lifedart>
+  <entitydescription.sniperbulletap>A heavy caliber sniper round capable of punching through armor and the person wearing it, great agaisnt mudraptors. GIVES ARMOR BREAK, A PERMANENT DEFENSE DEBUFF.</entitydescription.sniperbulletap>
+  <entitydescription.sniperbulletex>A heavy caliber sniper round that does not have high armor piercing capacity, but has a devastating impact on the target. EXTRA DAMAGE AND CONCUSSION ON HEADSHOTS.</entitydescription.sniperbulletex>
+  <entitydescription.40mmflechette>A cannister that fires flechette rounds the moment the triger is pulled. Fires 1.5x the bullets of a regular shotgun flechette.</entitydescription.40mmflechette>
+  <entitydescription.40mmteargrenade>Standard riot control tear gas. Continuously emits gas that when in contact with causes temporary blindess.</entitydescription.40mmteargrenade>
+  <entitydescription.40mmsonicboom>A powerful speaker capable of creating a sound so loun it sends anyone close to it flying away. Ragdoll before contact for maximum speed!</entitydescription.40mmsonicboom>
+  <entitydescription.40mmconcussiongrenade>A feat of makeshift engineering, this thing is sure to disorient anyone you hit it with.</entitydescription.40mmconcussiongrenade>
+  <entitydescription.milkor>A powerful, but slow shooting weapon. Previously held in coalition armouries, now ransacked and repourposed for the warband. Lack of lubrification, polishing, and overall care severely hindered it's former devastating firerate. Still, the ability to choose the order in which you shoot the grenades, and not having to manually load each one is still useful.</entitydescription.milkor>
+  <entitydescription.m-79>A handheld, lighter version of the grenade launcher. Lower firerate, but way faster to deploy and deals the same damage.</entitydescription.m-79>
+  <entitydescription.xm3>Long range rifle with a built in scope. Very powerful, but can lead to tunnel vision from looking so far away.</entitydescription.xm3>
+  <entitydescription.policebaton>A non eletric stun baton, but still able to keep someone down in the right hands.</entitydescription.policebaton>
+  <entitydescription.jetpackui>A powerfull hand held propulsion system stolen from top of the line engine manufacturers. WARNING: DO NOT USE WITHOUT TRAINING! (SERIOUSLY).</entitydescription.jetpackui>
+  <entitydescription.bluemedal>Blue candy produced by the finest warband candymakers such a Waltor Grey and Jesso Magenta. Unlocks latent potential locked behind by silly things such as immune system. Recommended one per plunderer, two at most in case of lack of soldiers.</entitydescription.bluemedal>
+  <entitydescription.fulguriumbatterycell>A battery cell constructed of the rare and poorly understood compound Fulgurium. MAKES WARBOSS FASTER WHEN EQUIPED IN THE SUIT'S POWER CELL SLOT!</entitydescription.fulguriumbatterycell>
+  <entitydescription.piratespineshield>Capable of firing spikes and regenerating durability. TRYING TO FIRE WHILE NO SPIKE IS INSIDE WILL CAUSE THE NEXT SHOT TO MISFIRE.</entitydescription.piratespineshield>
+  <entitydescription.raptoressence>The genetic material of a familiar mudraptor, condensed into a syringe. If purchased, the syringe is to be INSTANTLY INJECTED, to avoid any tainting of the genetic material.</entitydescription.raptoressence>
+  <entitydescription.thermalcap>A slightly padded cap, capable of giving you termal visio and a slight defense againt headshots.</entitydescription.thermalcap>
+  <entitydescription.binoculars>A recon tool, perfect for spotting enemies from war away.</entitydescription.binoculars>
+  <entitydescription.krissvector>A high firerate, high precision, low recoil submachine gun, made for the captain of the coalition team.</entitydescription.krissvector>
+  <entitydescription.9mmmag>Light coalition ammo. Contains 33 bullets.</entitydescription.9mmmag>
+  <entitydescription.sr3m>A low-ammo, high-damage weapon, perfect for finishing off enemies wounded by explosions or protecting chockepoints from unprepared rushers.</entitydescription.sr3m>
+  <entitydescription.IED>A low budget device that detonates once it detects the movement of Warband members. Once planted it also has a slot for adding additional explosives. Takes a second to activate and cannot be retrieved. THIS IS A DEFENSIVE TRAP, U.I CO. IS NOT RESPOSIBLE FOR IT NOT WORKING PROPERLY WHEN PLANTED CLOSE TO A WARBAND MEMBER OFENSIVELY.</entitydescription.IED>
+  <entitydescription.smgrecruitauto>The recruit's modular rifle, set to fully automatic. (F TO SWAP MODES. 3,33% durability spent per shot, first shot after swapping is lost in the chamber.)</entitydescription.smgrecruitauto>
+  <entitydescription.smgrecruitsemi>The recruit's modular rifle, set to semi-automatic. (F TO SWAP MODES. 10% durability spent per shot, first shot after swapping is lost in the chamber.)</entitydescription.smgrecruitsemi>
+  <entitydescription.12recruit>The recruit's modular rifle, set to shotgun mode. (F TO SWAP MODES. 5% durability spent per shot, first shot after swapping is lost in the chamber.)</entitydescription.12recruit>
+  <entitydescription.recmagazine>Recruit's gun magazine, able to freely swap between firing modes.</entitydescription.recmagazine>
+  <missiondescription.trailer>The Europa Coalition has tasked you to eliminate some of the dangerous group known as the Warband.</missiondescription.trailer>
+  <EventText.missionevent_trailer.c1>The outpost manager seems to hesitate a bit. “Ah, captain Blackbird, this mission might be on the more challenging side, but judging by your reputation, you may be able to pull it off.”</EventText.missionevent_trailer.c1>
+  <EventText.missionevent_trailer.o1.c1>“A new armed group of bandits seem to have formed. They dont seek political power, they dont want to negotiate, they seemingly only want to pillage and murder. They call themselves The Warband, and we're sending you and your team to deal with them. Think you can handle it?"</EventText.missionevent_trailer.o1.c1>
+  <EventText.missionevent.imready>We're ready.</EventText.missionevent.imready>
+  <entityname.sewer_wall>Sewer wall.</entityname.sewer_wall>
+  <itemmsgdetachhands>[[use]] Detach (Empty Handed)</itemmsgdetachhands>
+  <itemmsgrewirewrench>[[use]] Rewire (Wrench)</itemmsgrewirewrench>
+  <Override>
+    <entitydescription.handcannon>A humongous beast of a revolver, designed to better deal with the large alien threats on Europa than typical firearms. EXTRA DAMAGE AND CONCUSSION ON HEADSHOTS!</entitydescription.handcannon>
+  </Override>
+</infotexts>

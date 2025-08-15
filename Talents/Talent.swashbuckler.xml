@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="swashbuckler1">
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="3,7" sheetelementsize="128,128" />
+    <Description tag="talentdescription.swashbuckler1">
+      <Replace tag="[jetpack]" value="''Jet''-pack" color="gui.orange" />
+    </Description>
+    <AbilityGroupInterval interval="1">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true" disabledeltatime="true">
+              <Affliction identifier="pilotlicence" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="jetpackui" />
+  </Talent>
+  <Talent identifier="swashbuckler2">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,7" sheetelementsize="128,128" />
+    <Description tag="talentdescription.swashbuckler2">
+      <Replace tag="[explosiveres]" value="50%" color="gui.orange" />
+      <Replace tag="[caber]" value="Handheld Grenade Bundle" color="gui.orange" />
+    </Description>
+    <AbilityGroupInterval interval="1">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true" disabledeltatime="true">
+              <Affliction identifier="explosiveres" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="caber" />
+  </Talent>
+  <Talent identifier="swashbucklertagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,3" sheetelementsize="128,128" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.15" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="raptoressence" />
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <!--AddedRecipe itemidentifier="40mmgrenade" /-->
+    <AddedRecipe itemidentifier="40mmchemgrenade" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="uex" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent>
+</Talents>

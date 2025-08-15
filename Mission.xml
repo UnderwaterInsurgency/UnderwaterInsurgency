@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Missions>
+    <OutpostMission identifier="trailer" name="missionname.trailer" successmessage="missionsuccess.jailbreak" failuremessage="missionfailure.jailbreak" tags="trailer" requiredlocationfaction="separatists" achievementidentifier="jailbreak_coalition" type="AbandonedOutpost" reward="3000" difficulty="3" commonness="100" allowretry="true" hostageskilledmessage="prisonerkilled">
+      <Icon texture="Content/UI/MissionIcons.png" sourcerect="512,256,256,256" color="214,50,48" />
+      <LocationType identifier="City" />
+      <LocationType identifier="Military" />
+      <Characters>
+        <Character identifier="prisonercoalition" from="outpostnpcs1" spawnpointtags="jail" spawnpointtype="corpse" requirerescue="true" />
+        <Character identifier="prisonercoalition" from="outpostnpcs1" spawnpointtags="jail" spawnpointtype="corpse" requirerescue="true" />
+        <Character identifier="prisonercoalition" from="outpostnpcs1" spawnpointtags="jail" spawnpointtype="corpse" requirerescue="true" multiplayeronly="true" />
+      </Characters>
+      <TriggerEvent state="0" eventidentifier="jailbreak" />
+      <Reputation identifier="coalition" amount="5" amountforopposingfaction="-5" />
+      <message header="missionheader0.prisonerrescue" text="missionmessage0.prisonerrescue" />
+    </OutpostMission>
+  </Missions>
+</Override>

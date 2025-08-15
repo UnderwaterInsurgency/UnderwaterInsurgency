@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <RandomEvents>
+    <EventPrefabs>
+      <ScriptedEvent identifier="missionevent_trailer" commonness="100">
+        <NPCWaitAction npctag="outpostmanager" wait="true" />
+        <ConversationAction text="EventText.missionevent_trailer.c1" speakertag="outpostmanager" invokertag="triggerer_player" endeventifinterrupted="false" eventsprite="Coalition">
+          <Option text="EventText.missionevent.pleasecontinue">
+            <!-- "please continue" -->
+            <ConversationAction text="EventText.missionevent_trailer.o1.c1" targettag="triggerer_player" endeventifinterrupted="false" eventsprite="Coalition" endconversation="true">
+              <Option text="EventText.missionevent.imready">
+                <MissionAction missionidentifier="trailer" locationtype="City,Military" requiredfaction="separatists" minlocationdistance="1" />
+              </Option>
+            </ConversationAction>
+          </Option>
+        </ConversationAction>
+      </ScriptedEvent>
+    </EventPrefabs>
+  </RandomEvents>
+</Override>

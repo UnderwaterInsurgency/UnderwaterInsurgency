@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <!--Rifleman talents used as placeholder-->
+  <!--Talent identifier="rifleman1">
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="7,3" sheetelementsize="128,128" />
+    <Description tag="talentdescription.rifleman1">
+      <Replace tag="[damagebuff]" value="100%" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="1.0" />
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent>
+  <Talent identifier="rifleman2">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="1,1" sheetelementsize="128,128" />
+    <Description tag="talentdescription.rifleman2">
+      <Replace tag="[concussion]" value="concussion" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData tags="riflemantalent" />
+      </Conditions>
+      <Abilities>
+		<CharacterAbilityApplyStatusEffects>
+		  <StatusEffects>
+            <StatusEffect type="OnAbility" target="UseTarget" multiplyafflictionsbymaxvitality="true" disabledeltatime="true">
+              <Affliction identifier="concussion2" amount="0.3" />
+			</StatusEffect>
+		  </StatusEffects>
+		</CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+  </Talent-->
+  <Talent identifier="infiltratortagtalent">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="4,0" sheetelementsize="128,128" />
+    <Description tag="talentdescription.infiltratortagtalent">
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.15" />
+        </Abilities>
+      </AbilityGroupEffect>
+    </Description>
+    <!--AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionNearbyCharacterCount distance="9999999999" OnContained="dogtagrifleman" count="1" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.2" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionNearbyCharacterCount distance="9999999999" OnContained="dogtagrifleman" count="2" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.2" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionNearbyCharacterCount distance="9999999999" OnContained="dogtagrifleman" count="3" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.2" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionNearbyCharacterCount distance="9999999999" OnContained="dogtagrifleman" count="4" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.2" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionAttackData weapontype="handheldranged" />
+        <AbilityConditionNearbyCharacterCount distance="9999999999" OnContained="dogtagrifleman" count="5" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAttackData addeddamagemultiplier="0.2" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval target="Self" maxtriggercount="1" >
+	  <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="false" >
+              <Affliction identifier="liverifleman" amount="2.0" />
+			  <LuaHook name="TestCall" />
+			  <LuaHook name="UpdateLiveRiflemanCount" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+	  </Abilities>
+	</AbilityGroupInterval-->
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="antibleeding2" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="respack" />
+  </Talent>
+</Talents>

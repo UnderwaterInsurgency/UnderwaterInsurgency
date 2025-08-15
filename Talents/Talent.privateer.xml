@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="privateer1">
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="6,3" sheetelementsize="128,128" />
+    <Description tag="talentdescription.privateer1">
+      <Replace tag="[shotgun]" value="Sextuple-Barreled Shotgun" color="gui.orange" />
+      <Replace tag="[glockinator]" value="The Glockinator" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="glockinator" />
+    <AddedRecipe itemidentifier="sextupleshotgun" />
+  </Talent>
+  <Talent identifier="privateer2">
+    <Icon texture="Content/UI/TalentsIcons2.png" sheetindex="3,7" sheetelementsize="128,128" />
+    <Description tag="talentdescription.privateer2">
+      <Replace tag="[cluster]" value="Cluster Grenade" color="gui.orange" />
+      <Replace tag="[9]" value="9" color="gui.orange" />
+    </Description>
+    <AddedRecipe itemidentifier="clustergrenade" />
+  </Talent>
+  <Talent identifier="privateertagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,3" sheetelementsize="128,128" />
+    <AddedRecipe itemidentifier="raptoressence" />
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <AddedRecipe itemidentifier="hepsmgmagazine" />
+    <AddedRecipe itemidentifier="hepshotgunshell" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent>
+</Talents>
+<!--		/// <summary>
+        /// Decreases the reload time of ranged weapons held by the character by a percentage.
+        /// </summary>
+        RangedAttackSpeed,
+https://github.com/FakeFishGames/Barotrauma/blob/0aee53976202c7ea5c0bb3f26669a97c8dc2400c/Barotrauma/BarotraumaShared/SharedSource/Enums.cs#L139
+Might help me later-->

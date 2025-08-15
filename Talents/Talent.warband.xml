@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <!--Talent identifier="bucaneertagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="3,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.bucaneertagtalent" />
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <AddedRecipe itemidentifier="ultrazine" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="uex" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent-->
+  <!--Talent identifier="swashbucklertagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,3" sheetelementsize="128,128" />
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <AddedRecipe itemidentifier="40mmgrenade" />
+    <AddedRecipe itemidentifier="40mmchemgrenade" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="uex" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent>
+  <Talent identifier="bulwarksmantagtalent1">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,3" sheetelementsize="128,128" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="1.5" />
+		<CharacterAbilityModifyStat stattype="MovementSpeed" value="-0.15"/>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent>
+  <Talent identifier="bulwarksmantagtalent2">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="5,3" sheetelementsize="128,128" />
+	<AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="1.0" />
+		<CharacterAbilityModifyStat stattype="MovementSpeed" value="-0.1"/>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="OUTS_LMGAMMO" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+  </Talent-->
+  <Talent identifier="warbosstagtalent">
+    <Icon texture="Content/UI/TalentsIcons3.png" sheetindex="5,6" sheetelementsize="128,128" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MaximumHealthMultiplier" value="1.0" />
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="-0.1" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval interval="0.9">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffectsToAllies allowself="false">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="dabossrulez" strength="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffectsToAllies>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="raptoressence" />
+    <AddedRecipe itemidentifier="meth" />
+    <AddedRecipe itemidentifier="steroids" />
+    <AddedRecipe itemidentifier="chemgrenade" />
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="smgmagazine" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="shotgunshell2" />
+    <AddedRecipe itemidentifier="shotgunshell" />
+    <AddedRecipe itemidentifier="shotgunshellblunt" />
+    <AddedRecipe itemidentifier="apsmgmagazine" />
+    <AddedRecipe itemidentifier="suicidebelt" />
+    <AddedRecipe itemidentifier="minigunmagazine" />
+    <AddedRecipe itemidentifier="minigun" />
+    <AddedRecipe itemidentifier="fulguriumbatterycell" />
+  </Talent>
+</Talents>

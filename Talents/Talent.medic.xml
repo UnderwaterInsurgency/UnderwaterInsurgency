@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Talent identifier="medic1">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="4,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.medic1">
+      <Replace tag="[medboost]" value="50%" color="gui.orange" />
+      <Replace tag="[healthboost]" value="20" color="gui.orange" />
+      <Replace tag="[adrenalineshot]" value="Adrenaline shot" color="gui.orange" />
+      <Replace tag="[10]" value="10" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MedicalItemApplyingMultiplier" value="0.5" />
+        <CharacterAbilityGiveStat stattype="MedicalItemDurationMultiplier" value="0.5" />
+        <CharacterAbilityGiveStat stattype="MedicalSkillBonus" value="10" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnApplyTreatment">
+      <Conditions>
+        <AbilityConditionCharacter targettype="Ally,NotSelf" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityGiveAffliction affliction="bedsidemanner" strength="600" setvalue="true" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="adrenalineshot" />
+  </Talent>
+  <Talent identifier="medic2">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="6,5" sheetelementsize="128,128" />
+    <Description tag="talentdescription.medic2">
+      <Replace tag="[poisonboost]" value="50%" color="gui.orange" />
+      <Replace tag="[resist]" value="25%" color="gui.orange" />
+      <Replace tag="[E.D.S]" value="Experimental Drug Spreading Station" color="gui.orange" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveFlag flagtype="MoveNormallyWhileDragging" />
+        <CharacterAbilityGiveStat stattype="PoisonMultiplier" value="0.5" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionCrewMemberUnconscious />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="emergencyresponse_selfbuff" amount="2.0" />
+              <Affliction identifier="stonewall" amount="4.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AddedRecipe itemidentifier="MedPump" />
+  </Talent>
+  <Talent identifier="medictagtalent">
+    <Icon texture="Content/UI/TalentsIcons1.png" sheetindex="0,6" sheetelementsize="128,128" />
+    <Description tag="talentdescription.medictagtalent">
+      <Replace tag="[amount]" value="25%" color="gui.green" />
+    </Description>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="MedicalItemApplyingMultiplier" value="0.25" />
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.15" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="antidama1" />
+    <AddedRecipe itemidentifier="antibleeding2" />
+    <AddedRecipe itemidentifier="fraggrenade" />
+    <AddedRecipe itemidentifier="stungrenade" />
+    <AddedRecipe itemidentifier="respack" />
+  </Talent>
+</Talents>
+<!--
+        /// <summary>
+        /// Increases how much damage the character deals to other characters on the same team by a percentage.
+        /// </summary>
+        TeamAttackMultiplier
+		/// <summary>
+        /// Decreases the reload time of ranged weapons held by the character by a percentage.
+        /// </summary>
+        RangedAttackSpeed,
+https://github.com/FakeFishGames/Barotrauma/blob/0aee53976202c7ea5c0bb3f26669a97c8dc2400c/Barotrauma/BarotraumaShared/SharedSource/Enums.cs#L139
+Might help me later-->

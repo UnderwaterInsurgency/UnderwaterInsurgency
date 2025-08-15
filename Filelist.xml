@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Underwater Insurgency Jobs 2.0 .2." modversion="3.5.12" corepackage="False" steamworkshopid="3307166466" gameversion="1.8.8.1" expectedhash="E277DA2666DFB27409CC7F32F956CD8A">
+  <Text file="%ModDir%/English.xml" />
+  <Jobs file="%ModDir%/Jobs.xml" />
+  <Item file="%ModDir%/Items.xml" />
+  <Talents file="%ModDir%/Talents/Talent.breacher.xml" />
+  <Talents file="%ModDir%/Talents/Talent.medic.xml" />
+  <Talents file="%ModDir%/Talents/Talent.grenadier.xml" />
+  <Talents file="%ModDir%/Talents/Talent.sharpshooter.xml" />
+  <Talents file="%ModDir%/Talents/Talent.rifleman.xml" />
+  <Talents file="%ModDir%/Talents/Talent.infiltrator.xml" />
+  <Talents file="%ModDir%/Talents/Talent.captain.xml" />
+  <Talents file="%ModDir%/Talents/Talent.warband.xml" />
+  <Talents file="%ModDir%/Talents/Talent.bucaneer.xml" />
+  <Talents file="%ModDir%/Talents/Talent.swashbuckler.xml" />
+  <Talents file="%ModDir%/Talents/Talent.privateer.xml" />
+  <Talents file="%ModDir%/Talents/Talent.bulwarksman.xml" />
+  <Talents file="%ModDir%/Talents/Talent.misc.xml" />
+  <TalentTrees file="%ModDir%/TalentTrees.xml" />
+  <Afflictions file="%ModDir%/Afflictions.xml" />
+  <Afflictions file="%ModDir%/Subwaysurfers/Animations.xml" />
+  <Particles file="%ModDir%/prefab.xml" />
+  <Other file="%ModDir%\Lua\Autorun\nuketimer.lua" />
+  <Missions file="%ModDir%/Mission.xml" />
+  <RandomEvents file="%ModDir%/RandomEvents.xml" />
+  <Character file="%ModDir%/Characters/PrincessCupcake/PrincessCupcake.xml" />
+  <Character file="%ModDir%/Characters/Princesscupcake_troll/Princesscupcake_troll.xml" />
+  <Character file="%ModDir%/Characters/Princesscupcake_bipedal/Princesscupcake_bipedal.xml" />
+  <Character file="%ModDir%/Characters/Princesscupcake_bipedal2/Princesscupcake_bipedal2.xml" />
+  <Character file="%ModDir%/Characters/Humanbreacher/Humanbreacher.xml" />
+  <Character file="%ModDir%/Characters/Humanbucaneer/Humanbucaneer.xml" />
+  <BackgroundCreaturePrefabs file="%ModDir%/BackgroundCreaturesPrefabs.xml" />
+</contentpackage>

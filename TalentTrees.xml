@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+  <TalentTree jobidentifier="coalitionbreacher">
+    <SubTree identifier="breacher_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="breacher1" />
+        <TalentOption identifier="breacher2" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="coalitionmedic">
+    <SubTree identifier="medic_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="medic1" />
+        <TalentOption identifier="medic2" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="coalitionsaboteur">
+    <SubTree identifier="saboteur_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="saboteur1" />
+        <TalentOption identifier="saboteur2" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="coalitionrifleman">
+    <SubTree identifier="rifleman_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="rifleman1" />
+        <TalentOption identifier="rifleman2" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="coalitionsniper"></TalentTree>
+  <TalentTree jobidentifier="coalitioninfiltrator"></TalentTree>
+  <TalentTree jobidentifier="coalitionteamcaptain"></TalentTree>
+  <TalentTree jobidentifier="piratemelee">
+    <SubTree identifier="bucaneer_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="bucaneer1" />
+        <TalentOption identifier="bucaneer2" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="pirateshieldbearer">
+    <SubTree identifier="Gunner" type="specialization">
+      <TalentOptions>
+        <TalentOption identifier="bulwarksman1a" />
+        <TalentOption identifier="bulwarksman2a" />
+      </TalentOptions>
+    </SubTree>
+    <SubTree identifier="Melee" type="specialization">
+      <TalentOptions>
+        <TalentOption identifier="bulwarksman1b" />
+        <TalentOption identifier="bulwarksman2b" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="piraterifleman">
+    <SubTree identifier="privateer_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="privateer1" />
+        <TalentOption identifier="privateer2" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="pirategrenadier">
+    <SubTree identifier="swashbuckler_primary" nameidentifier="talenttree.primary" type="primary">
+      <TalentOptions requiredtalents="1" maxchosentalents="2">
+        <TalentOption identifier="swashbuckler1" />
+        <TalentOption identifier="swashbuckler2" />
+      </TalentOptions>
+    </SubTree>
+  </TalentTree>
+  <TalentTree jobidentifier="warboss"></TalentTree>
+</TalentTrees>
