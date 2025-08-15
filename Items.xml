@@ -5473,7 +5473,7 @@
     <!-- Controller output was made editable in v1.1.4.0, disallow it on periscopes -->
     <Upgrade gameversion="1.1.4.0" allowingameediting="false" />
   </Item>
-  <Item name="Binoculars" identifier="binoculars" category="Medical,Material" Tags="smallitem,zoom,U.I" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Binoculars" identifier="binoculars" category="Medical,Material" Tags="smallitem,U.I" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="10" sold="false">
@@ -5486,12 +5486,12 @@
     <InventoryIcon texture="%ModDir%/Sprites/items.png" sourcerect="538,852,138,46" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Sprites/items.png" sourcerect="538,852,138,46" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="20" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="55,20" handle1="-25,-7" handle2="-25,-7" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="55,20" handle1="-25,-7" handle2="-25,-7" msg="ItemMsgPickUpSelect" cameraaimoffset="625" />
     <RangedWeapon spread="0" unskilledspread="6" combatPriority="10" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5" DualWieldReloadTimePenaltyMultiplier="1.75" DualWieldAccuracyPenalty="8">
       <CrosshairPointer texture="%ModDir%/Sprites/Binoculars-scope.png" sourcerect="0,0,7000,4000" />
     </RangedWeapon>
   </Item>
-  <Item name="Hand Binoculars" identifier="handbinoculars" category="Medical,Material" Tags="smallitem,zoom,U.I" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
+  <Item name="Hand Binoculars" identifier="handbinoculars" category="Medical,Material" Tags="smallitem,U.I" canbepicked="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" />
     <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.05" />
     <Price baseprice="10" sold="false">
@@ -5504,7 +5504,7 @@
     <InventoryIcon texture="%ModDir%/Sprites/Binoculars-hands.png" sourcerect="0,0,0,0" origin="0.5,0.5" />
     <Sprite texture="%ModDir%/Sprites/Binoculars-hands.png" sourcerect="0,0,0,0" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="30" density="20" />
-    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="55,20" handle1="-25,-7" handle2="-25,-7" msg="ItemMsgPickUpSelect" />
+    <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="55,20" handle1="-25,-7" handle2="-25,-7" msg="ItemMsgPickUpSelect" cameraaimoffset="625" />
     <RangedWeapon spread="0" unskilledspread="6" combatPriority="10" drawhudwhenequipped="true" crosshairscale="0.2" reload="0.5" DualWieldReloadTimePenaltyMultiplier="1.75" DualWieldAccuracyPenalty="8">
       <CrosshairPointer texture="%ModDir%/Sprites/Binoculars-hands.png" sourcerect="0,0,1308,709" />
     </RangedWeapon>
