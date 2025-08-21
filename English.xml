@@ -201,5 +201,6 @@
   <itemmsgrewirewrench>[[use]] Rewire (Wrench)</itemmsgrewirewrench>
   <Override>
     <entitydescription.handcannon>A humongous beast of a revolver, designed to better deal with the large alien threats on Europa than typical firearms. EXTRA DAMAGE AND CONCUSSION ON HEADSHOTS!</entitydescription.handcannon>
+    <entitydescription.coalitioncommendation>A small medal fashioned out of copper, created by the Coalition to motivate it's finest. Per official guidelines, only one may be bestowed to a soldier to unlock their true potential. Does not apply during times of personnel shortage, where everyone should be motivated as much as possible!</entitydescription.coalitioncommendation>
   </Override>
 </infotexts>
