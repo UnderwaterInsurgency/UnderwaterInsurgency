@@ -9376,5 +9376,8 @@
         </StatusEffect>
       </MeleeWeapon>
     </Item>
+    <Item identifier="ui_cupcakeTeleportPoint" tags="ui_cupcakeTeleportPoint" scale="0.5" hiddeningame="true" noninteractable="true">
+      <sprite texture="%ModDir%/Characters/PrincessCupcake/Mudraptor_veteran.png" sourcerect="693,293,56,58" depth="0.0" origin="0.5,0.5" />
+    </Item>
   </override>
 </Items>
