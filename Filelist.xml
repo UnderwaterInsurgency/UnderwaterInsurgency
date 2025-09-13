@@ -20,7 +20,6 @@
   <Afflictions file="%ModDir%/Afflictions.xml" />
   <Afflictions file="%ModDir%/Subwaysurfers/Animations.xml" />
   <Particles file="%ModDir%/prefab.xml" />
-  <Other file="%ModDir%\Lua\Autorun\nuketimer.lua" />
   <Missions file="%ModDir%/Mission.xml" />
   <RandomEvents file="%ModDir%/RandomEvents.xml" />
   <Character file="%ModDir%/Characters/PrincessCupcake/PrincessCupcake.xml" />
