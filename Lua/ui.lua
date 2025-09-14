@@ -22,6 +22,8 @@ Hook.Add("chatMessage", "ui_startRound", function(message, client)
 				character.TeleportTo(cupcakeTeleportPoint.WorldPosition)
 			end
 		end
+		Game.SendMessage("THE ROUND HAS STARTED!", 11)
+		return true -- Don't print command to chat
 	end
 end)
 
