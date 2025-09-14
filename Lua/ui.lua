@@ -2,7 +2,7 @@ if CLIENT then return end -- All of these should only be run on the server
 
 -- Round start command
 Hook.Add("chatMessage", "ui_startRound", function(message, client)
-	if (message == "!startround" and client.HasPermissions) then -- Only allow clients with permissions to start rounds
+	if (message == "!startround" and client.checkPermission(0x80)) then -- Only allow clients with console command permissions to start rounds
 		local startDoorsFound = 0
 		for _, item in pairs(Item.ItemList) do
 			if (item.HasTag("ui_startDoor") and item.GetComponentString("Door")) then -- Check for items with "ui_startDoor" tags and a "Door" component
