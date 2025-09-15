@@ -27,7 +27,8 @@ Hook.Add("chatMessage", "ui_startRound", function(message, client)
 	end
 end)
 
-function getCupcakeTeleportPoint() -- Helper function that looks for the first item with tag "ui_cupcakeTeleportPoint" and returns it
+-- Helper function that looks for the first item with tag "ui_cupcakeTeleportPoint" and returns it
+function getCupcakeTeleportPoint()
 	for _, item in pairs(Item.ItemList) do
 		if (item.HasTag("ui_cupcakeTeleportPoint")) then
 			return item
@@ -36,21 +37,18 @@ function getCupcakeTeleportPoint() -- Helper function that looks for the first i
 end
 
 -- Change team of warband classes
-Hook.Add("character.created", "setTeam", function(character) -- 
-    
+Hook.Add("character.created", "ui_setTeam", function(character)
 	local jobId = character.JobIdentifier.Value
-	local species = character.SpeciesName.Value
-	
-    if jobId == "warboss" or jobId == "piraterifleman" or jobId == "piratemelee" or jobId == "pirategrenadier" or jobId == "pirateshieldbearer" then
+    if (jobId == "warboss" or jobId == "piraterifleman" or jobId == "piratemelee" or jobId == "pirategrenadier" or jobId == "pirateshieldbearer") then -- If any warband class
 		Timer.Wait(function()
-		character.SetOriginalTeamAndChangeTeam(2)
-		character.UpdateTeam()
-		local cardItem = character.Inventory.GetItemInLimbSlot(InvSlotType.Card)
-		if cardItem then
-			local idCard = cardItem.GetComponentString("IdCard")
-			idCard.TeamID = 2
-		end
-	end, 1500)
+			character.SetOriginalTeamAndChangeTeam(2) -- Set team on character
+			character.UpdateTeam()
+			local cardItem = character.Inventory.GetItemInLimbSlot(InvSlotType.Card)
+			if cardItem then
+				local idCard = cardItem.GetComponentString("IdCard")
+				idCard.TeamID = 2 -- Set team on id card
+			end
+		end, 1500)
     end
-	
+
 end)
