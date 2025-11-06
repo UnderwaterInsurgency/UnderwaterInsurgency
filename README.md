@@ -7,12 +7,16 @@ Choose between the Logistical and Strategic power of the Coalition...
 Or the Raw, Overwhelming power of the Warband!
 
 
-- Current Goal: Coalition Rework. Focused on adding the Coalition Recruit class, with his modular weapon of multiple firing modes, along with the Breacher, a shotgun bearing frontliner with Modular Armor with independent HP!
+- Current Goal: Implementing the Warband visual redux and 3 new classes including but not limited to "Princess Cupcake Prime" and "R.O.C.C.U"
 
 - Current Dev Team members: <br>
-danipower1000: Main programer. <br>
+Profole: Main coder. <br>
 mrlazyrit: Map Maker and Creative Director.<br>
 tocksickg: Main Spriter.<br>
+
+- Former dev team members:<br>
+Danipowe1000: One of the founders, Former main coder who coded and implemented 99% of the mod.<br>
+Toxic Tutorial: One of the founders, Former map maker.<br>
 
 
 
